@@ -1,0 +1,84 @@
+@charset 'utf-8'; 
+
+body,div,p,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_c.png');
+	background-repeat: no-repeat;
+	font-family: "ＭＳ Ｐゴシック";
+}
+img  {
+  border-style:none;
+}
+
+
+.announce {
+	color: #F03;
+}
+
+a:link {/*未訪問のリンク*/
+    color:#0072ff;
+    font-style:normal;
+    text-decoration:underline;
+}
+
+a:visited {/*訪問後のリンク*/
+    color:#ff8989;
+    text-decoration:underline;
+}	
+	
+a:hover {/*マウスをのせたとき*/
+	color:#79AD1F;
+	font-style:normal;
+	text-decoration:underline;
+}
+
+#apDiv1 {
+	position:absolute;
+	left:71px;
+	top:540px;
+	width:783px;
+	height:173px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:65px;
+	top:7px;
+	width:1070px;
+	height:55px;
+	z-index:2;
+}
+#news1 {
+	position:absolute;
+	left:249px;
+	top:582px;
+	width:629px;
+	height:28px;
+	z-index:4;
+	font-size: 22px;
+	color:#db5151;
+	font-family: "ＭＳ Ｐゴシック";
+	
+}
+#apDiv4 {
+	position:absolute;
+	left:961px;
+	top:25px;
+	width:32px;
+	height:27px;
+	z-index:5;
+}
+#apDiv5 {
+	position:absolute;
+	left:967px;
+	top:533px;
+	width:180px;
+	height:216px;
+	z-index:5;
+}

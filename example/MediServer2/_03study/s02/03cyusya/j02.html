@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemGuide" />
+    <link rel="stylesheet" type="text/css"  >
+    <link rel="stylesheet" type="text/css"  href="../../../css/movie.css">
+	<title>レベミル注フレックスペン</title>
+
+<script language="JavaScript" type="text/JavaScript"> 
+  
+function mp_play() {
+  if (MediaPlayer.playState == 8){
+    MediaPlayer.CurrentPositon=0;
+    MediaPlayer.play();
+  }else {
+    MediaPlayer.play();
+  }
+}
+function mp_pause() {
+  if (MediaPlayer.playState == 1){
+    MediaPlayer.play();
+  }else if ((MediaPlayer.playState >= 2) && (MediaPlayer.playState <= 5)){
+    MediaPlayer.pause();
+  }
+}
+function mp_restart() {
+  MediaPlayer.Stop();
+  MediaPlayer.CurrentPositon=0;
+  MediaPlayer.play();
+}
+function mp_few() {
+  MediaPlayer.fastForward();
+}
+function mp_voldown() {
+  if (MediaPlayer.Volume >= -8000) {
+    MediaPlayer.Volume = MediaPlayer.Volume - 300;
+  } else {
+    MediaPlayer.Volume = -10000;
+  }
+}
+function mp_volup() {
+  if (MediaPlayer.Volume <= -300) {
+    MediaPlayer.Volume = MediaPlayer.Volume + 300;
+  } else {
+    MediaPlayer.Volume = 0;
+  }
+}
+
+</script>
+
+
+	<style type="text/css">
+
+
+
+	</style>
+
+</head>
+<body scroll="no">
+<div class="wrapper">
+
+<div id="header">
+<table width="100%" >
+<tr>
+<td width="10px" height="70px"></td><td><h1><span id="bluetex">▶</span>レベミル注フレックスペン</h1></td>
+</tr>
+	
+</table>
+</div>
+<div id="main"  >
+<table width="100%" height="600" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr><td rowspan="9" width="100px">&nbsp;&nbsp;</td>
+    <td rowspan="9" width="640"><div align="center" valign="middle" >
+      <object classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" 
+    codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715" 
+    standby="Loading MicrosoftR WindowsR Media Player components..." 
+    type="application/x-oleobject"
+    
+     width="800" height="600" class="waku" id="MediaPlayer">
+     
+        <param name="AutoStart"    value="True"      />
+        <param name="AutoRewind"   value="True"      />
+        <param name="Filename"     value="j02.wvx" />
+        <param name="ShowControls" value="True" />
+        <param name="ShowTracker" value="True" />
+        <param name="ShowAudioControls" value="True" />
+        <param name="ShowPositionControls" value="False" />
+        <param name="volume"       value="0"         />
+      </object>
+
+</td><td rowspan="9" width="70px">&nbsp;&nbsp;</td></tr>
+<tr><td height="55px"></td></tr>
+<tr><td>
+      <input type="button" value="&nbsp;&nbsp;再生&nbsp;▶&nbsp;&nbsp;" id="ctrbtn" href="#" onclick="mp_play()"></td></tr>
+<tr><td><input type="button" value="一時停止" id="ctrbtn" onclick = "mp_pause()">
+</td></tr>
+<tr><td><input type="button" value="&nbsp;最初から" id="ctrbtn" onclick = "mp_restart()">
+ </td></tr>
+ <tr><td><input type="button" value="&nbsp;&nbsp;早送り&nbsp;&nbsp;&nbsp;"  id="ctrbtn" onclick = "mp_few()">
+</td></tr>
+<tr><td><input type="button" value="&nbsp;&nbsp;音量▼&nbsp;&nbsp;" id="ctrbtn" onclick = "mp_voldown()">
+</td></tr>
+<tr><td><input type="button" value="&nbsp;&nbsp;音量▲&nbsp;&nbsp;" id="ctrbtn" onclick = "mp_volup()">
+</td></tr>
+<tr><td height="55px"><h3>&nbsp;クリック2回で<br>&nbsp;&nbsp;全画面表示</h3></td></tr>
+</table></div></div>
+
+
+<div id="footer">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="6%" height="85px"><div class="home"><a href="../../../index.htm"></a></div></td>
+    <td width="94%"><<<a href="../../../index.htm">スタート画面</a><<<a href="../../index.html">いっしょに学ぼう</a>
+    <<<a href="../index.html">お薬について</a><<<a href="../03cyusya.html">自己注射薬の使い方へ戻る</a>
+    </td>
+  </tr>
+
+</table>
+
+
+</div>
+
+
+</div>
+</body>
+</html>
+
+

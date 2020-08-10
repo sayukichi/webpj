@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="EUC-JP"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="../css/movie.css">
+<title>Flowplayer</title>
+
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+#apDiv2 {
+	position:absolute;
+	left:37px;
+	top:14px;
+	width:514px;
+	height:70px;
+	z-index:7;
+}
+
+#apDiv_z {
+	position:absolute;
+	left:120px;
+	top:90px;
+	width:514px;
+	height:70px;
+	z-index:7;
+}
+#apDiv_k {
+	position:absolute;
+	left:120px;
+	top:240px;
+	width:514px;
+	height:70px;
+	z-index:7;
+}
+#apDiv_r {
+	position:absolute;
+	left:120px;
+	top:450px;
+	width:514px;
+	height:70px;
+	z-index:7;
+}
+
+-->
+</style>
+</head>
+<body background="../img/base_movie.png" scroll="no">
+<br />
+<table width="1024" height="1627" border="0" style="margin-left:158px;margin-top:40px;" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="510" align="center">
+    
+    
+<object id="player1" width="640" height="518" classid="CLSID:22D6F312-B0F6-11D0-94AB-0080C74C7E95" codebase="http://activex.microsoft.com/activex/controls/mplayer/en/nsmp2inf.cab#Version=6,4,5,715" type="application/x-oleobject">
+<param name="FileName" value="btn01-1.wvx">
+<param name="AutoStart" value="true">
+<param name="ShowStatusBar" value="false">
+<param name="Volume" value="0">
+<param name="uiMode" value="mini">
+<!--
+<param name="ShowDisplay" value="true">
+<param name="ShowControls" value="true">
+<param name="ShowAudioControls" value="true">
+<param name="ShowPositionControls" value="true">
+<param name="Volume" value="-500">
+-->
+<embed name="Player1" src="btn01-1.wvx" type="application/x-mplayer2" AutoStart="0" ShowControl="1" ShowStatusBar="1" ShowDisplay="1" width="640" height="480" Volume="-500"></embed>
+</object>
+
+<!--
+    
+    <div style="width:720px;height:480px;margin:0 auto;" id="player" ></div>
+<script>
+flowplayer(
+"player",
+"flowplayer-3.2.18.swf", /* flowplayerのURI 相対パスでも可 */
+{
+  clip: {
+    url: '14.flv', /* 動画ファイルURI */
+    // autoPlay: false, /* 初期画像無しではautoplayをoffにする */
+    // autoBuffering: false, /* 自動バッファoff(事前の動画データDL可否) */
+    // scaling: 'fit' /* アスペクト比固定表示 ※最後はカンマ無し*/
+    provider: 'rtmp'
+  }, /* カンマを忘れずに！ */
+  plugins: {
+	controls:{
+	   "autoHide":false
+	
+		},
+    rtmp: {
+      url: 'flowplayer.rtmp-3.2.13.swf',
+      netConnectionUrl: 'rtmp://172.25.25.252/oflaDemo'
+    }
+  },
+  canvas: {
+    backgroundColor: '#000000', /* 背景色(全画面時も適用される) */
+    backgroundGradient: 'none' /* 背景グラデーション OFF ※最後はカンマ無し */
+  } /* 最後はカンマ無し */
+});
+</script>
+-->
+
+
+</td></tr>
+<tr><td>
+	
+    </td>
+  </tr>
+</table>
+<div id="apDiv_z">
+    <img src="../img/btn01-1m.png" name="Image1" border="0">
+</div>
+<div id="apDiv_k">
+  <a href="./btn01-2.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','../img/btn01-2m.png',1)">
+    <img src="../img/btn01-2.png" name="Image2" border="0">
+  </a>
+</div>
+<div id="apDiv_r">
+  <a href="../index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','../img/ret-m.png',1)">
+    <img src="../img/ret.png" name="Image3" border="0">
+  </a>
+</div>
+
+</body>
+</html>

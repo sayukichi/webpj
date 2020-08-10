@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemTopMenu" />
+    <link rel="stylesheet" type="text/css" href="./css/calendar.css" />
+	<title>日本海総合病院ＴＯＰ</title>
+<script type="text/javascript" src="calendar2.js"></script>
+
+	<style type="text/css">
+
+#date{
+	font-size: 36px;
+	position: absolute;
+	top:20px;
+	right: 30px;
+	color: #191970;
+	
+}
+body{
+		background-image: url(./img/base.png);
+		background-repeat: no-repeat;
+		overflow: hidden;
+		font-family: "ＭＳ ゴシック",sans-serif;
+	}
+
+#Layer01{
+	position: absolute;
+	left: 22px;
+	top: 74px;
+	width: 628px;
+	height: 99px;
+	z-index: 3
+}
+
+p a{
+	text-decoration:none;
+	color: #4d372c;
+	font-size: 16px;
+	padding:4px 2px;
+	font-weight:bold;
+}
+
+p a:link{
+	text-decoration:none;
+	color: #4d372c;
+}
+
+p a:hover{
+	text-decoration:none;
+	color: #4d372c;
+	background-color: #ffffff;
+	border-bottom: 2px solid #ff69b4;
+
+
+}
+p a:visited{
+	color: #4d372c;
+
+}
+
+#l04{
+	
+letter-spacing: 4px;
+}
+
+.letg{
+	position:absolute;
+	vertical-align:top;
+	left:5px;
+	top: 204px;
+	width: 466px;
+	height: 243px;
+	line-height:16px;
+}
+.leti{
+	position:absolute;
+	vertical-align:top;
+	left: 5px;
+	top: 465px;
+	width: 500px;
+	line-height:16px;
+}
+.letst{
+	position:absolute;
+	vertical-align:top;
+	left: 474px;
+	top: 206px;
+}
+
+.letst_2{
+	position:absolute;
+	vertical-align:top;
+	left: 688px;
+	width: 311px;
+	height: 241px;
+	line-height:16px;
+	top: 206px;
+}
+.letm{
+	position:absolute;
+	vertical-align:top;
+	left: 474px;
+	top: 465px;
+	line-height:20px;
+}
+
+.right{
+	position:absolute;
+	vertical-align:top;
+	left: 961px;
+	top: 236px;
+}
+
+#cal {
+	position:absolute;
+	left:980px;
+	top:16px;
+	width:204px;
+	height:218px;
+	z-index:5;
+}
+
+#cal_back {
+	position:absolute;
+	left:950px;
+	top:-5px;
+	width:214px;
+	height:258px;
+	z-index:4;
+}
+
+#ss{
+	letter-spacing: -2px;
+}
+
+
+
+    </style>
+	<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+    </script>
+</head>
+
+<body onload="MM_preloadImages('img/topbtn_01m.png','img/topbtn_03m.png','img/topbtn_02m.png','img/topbtn_04m.png','img/topbtn_05m.png','img/topbtn_06m.png','img/topbtn_07m.png')" scroll="no">
+
+<!--病院からのお知らせエリア 3行ニュース-->
+<div id="Layer01" >
+  <iframe name="msg" frameborder="0" height="110px" width="635px" scrolling="no" src="msg/index.htm"> </iframe>
+</div>
+
+<div class="letg">
+<table width="" height="" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="215px" height="222"><a href="./_01guide/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn01','','img/topbtn_01m.png',1)"><img src="img/topbtn_01.png" alt="病院案内" name="topbtn01" width="215" height="222" border="0" id="topbtn01" /></a></td>
+    
+    <td rowspan="2" width="">
+<p><a href="http://www.nihonkai-hos.jp/hospital/information.html">基本理念・倫理綱領・運営方針</a></p>
+<p><a href="./pre.html">病院長の挨拶</a></p>
+<p><a href="http://www.nihonkai-hos.jp/hospital/information/overview.html">概要</a>
+/&nbsp;
+<a href="http://www.nihonkai-hos.jp/hospital/information/history.html">沿革</a>&nbsp;/&nbsp;<a href="http://www.nihonkai-hos.jp/hospital/information/privacy.html">個人情報保護</a></p>
+<p><a href="./_01guide/CHOKAI.html">ちょうかいネット</a></p>
+<p><a href="./_01guide/g07/index.html">患者相談窓口</a></p>
+<p><a href="./_01guide/g08/index.html">セカンドオピニオン</a></p>
+<p><a href="./_01guide/g09/index.html">施設のご案内</a>&nbsp;/&nbsp;<a href="./_01guide/wifi.pdf"><b>ＷｉＦｉ</b></a></td>
+  </tr>
+  <tr>
+    <td height="24px">&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+<div class="leti">
+<table width="" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="215px" height="222"><a href="./_02info/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn02','','img/topbtn_02m.png',1)"><img src="img/topbtn_02.png" alt="入退院案内" name="topbtn02" width="215" height="222" border="0" id="topbtn02" /></a></td>
+    
+    <td rowspan="2" width="">
+<p><a href="./_02info/i01/index.html">入院生活</a></p>
+<p><a href="./_02info/i02/index.html">入院会計</a></p>
+<p><a href="./_02info/i03/_01shindansho.html">診断書・証明書</a></p>
+<p><a href="./_02info/i04/index.html">がんと診断された方へ</a></p>
+<p><a href="./_02info/i05/index.html">地域包括支援センターのご案内</a></p>
+<p><a href="./_02info/i06/index.html">便&nbsp;利&nbsp;帳</a></p>
+<p><a href="./_02info/demosurvey/sample1.htm">ご&nbsp;意&nbsp;見&nbsp;箱</a></p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+<div class="letst">
+<table height="222" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="215px" height="222"><a href="./_03study/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn03','','img/topbtn_03m.png',1)"><img src="img/topbtn_03.png" alt="いっしょに学ぼう" name="topbtn03" width="215" height="222" border="0" id="topbtn03" /></a></td>
+</tr></table></div>
+
+    <div class="letst_2">
+    	<table>
+    <td  width="">
+<p><a href="./_03study/s01/index.html">安全な入院生活のため</a></a></p>
+      <p><a href="./_03study/s02/index.html">おくすり</a>
+      /<a href="./pre.html">&nbsp;リハビリ</a>/&nbsp;<a href="./_03study/s04/index.html">手術</a></p>
+      <p id="ss"><a href="./_03study/s05/index.html">放射線治療</a>&nbsp;/<a href="./_03study/s06/index.html">放射線検査</a>&nbsp;/<a href="./_03study/s07/index.html">内視鏡検査</a></p> 
+     <p><a href="./pre.html">輸血を受けられる患者さまへ</a></p>
+      <p id="ss"><a href="./pre.html">ペースメーカの入っている患者さまへ</a></p>
+      <p><a href="./_03study/s09/index.html">がんについてのご相談</a></p>
+		<p><a href="./_03study/s10/index.html">お母さんと赤ちゃんについて</a></p></td>
+  </tr>
+
+</table>
+</div>
+
+<div class="letm">
+<table width="502" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="215px" height="222"><a href="./_04meal/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn04','','img/topbtn_04m.png',1)"><img src="img/topbtn_04.png" alt="食事" name="topbtn04" width="215" height="222" border="0" id="topbtn04" /></a></td>
+    
+    <td rowspan="2" width="">
+    <p><a href="./pre.html">献立メニュー</a></p>
+    <p><a href="./_04meal/_02change.html">食事変更</a></p>
+    <p><a href="./_04meal/_03Anorexia.html">食欲不振時</a></p>
+    <p><a href="./_04meal/_04index.html">栄養サポートチーム</a></p>
+    <p><a href="./_04meal/_05index.html">集団糖尿病教室</a></p>
+</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+<div class="right">
+  <table cellspacing="5">
+    <tr><td><a href="./pre.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn05','','img/topbtn_05m.png',1)"><img src="img/topbtn_05.png" alt="あなたの診療情報" name="topbtn05" width="226" height="151" border="0" id="topbtn05" /></a></td></tr>
+    <tr><td><a href="./healing/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn06','','img/topbtn_06m.png',1)"><img src="img/topbtn_06.png" alt="映画．ドラマ" name="topbtn06" width="226" height="151" border="0" id="topbtn06" /></a></td></tr>
+    <tr><td><a href="./inet/index_inet.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('topbtn07','','img/topbtn_07m.png',1)"><img src="img/topbtn_07.png" alt="インターネット・ラジオ" name="topbtn07" width="226" height="150" border="0" id="topbtn07" /></a></td></tr>
+  </table>
+</div>
+
+
+<div id="cal">
+<script type="text/javascript">
+                        calendar_print();
+                    </script></div>
+                    
+<div id="cal_back"><img src="img/cal.png" /></div>
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+<!--日付日時曜日
+<div id="date">
+<script>
+//今日の日付データを変数hidukeに格納
+var hiduke=new Date(); 
+
+//年・月・日・曜日を取得する
+var year = hiduke.getFullYear();
+var month = hiduke.getMonth()+1;
+var week = hiduke.getDay();
+var day = hiduke.getDate();
+
+var yobi= new Array("日","月","火","水","木","金","土");
+
+document.write(year+"年"+month+"月"+day+"日("+yobi[week]+")");
+
+</script>
+</div>
+-->

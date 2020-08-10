@@ -1,0 +1,108 @@
+@charset 'utf-8'; 
+
+body,div,p,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_sub.png');
+	background-repeat: no-repeat;
+	font-color: #033;
+	font-family: "メイリオ";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+img  {
+  border-style:none;
+}
+
+
+.titletext{
+	position:absolute;
+	left: 19px;
+	top: 55px;
+	z-index:3;
+	color:white;
+	font-family: "メイリオ";
+	font-size:48px;
+	text-decoration:underline;
+}
+
+
+
+.titletext2{
+	position:absolute;
+	z-index:3;
+	color:white;
+	font-family: "メイリオ";
+	font-size:48px;
+	text-decoration:underline;
+	left: 19px;
+	top: 37px;
+}
+
+
+
+.announce {
+	color:#033;
+}
+
+
+#maintable {
+	position:absolute;
+	left:143px;
+	top:264px;
+	width:825px;
+	height:388px;
+	z-index:4;
+	font-size: 22px;
+	font-family: "メイリオ";
+	
+	
+}
+
+#link {
+	position:absolute;
+	left:95px;
+	top:686px;
+	width:820px;
+	height:72px;
+	z-index:7;
+	color:#033;
+}
+
+a:link {/*未訪問のリンク*/
+    color:#033;
+    text-decoration:none;
+}
+
+	
+a:hover {/*マウスをのせたとき*/
+	color:#003;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+
+div.modoru {
+	position:absolute;
+	left:998px;
+	top:593px;
+	width:135px;
+	height:110px;
+	z-index:4;
+	
+}
+div.under{
+	position:absolute;
+	font-family: "メイリオ";
+	font-size: 26px;
+	color:#033;
+	top:717px;
+	left: 15px;
+	width: 1100px;
+}

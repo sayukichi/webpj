@@ -1,0 +1,68 @@
+@charset 'utf-8'; 
+
+
+body{
+background-repeat: no-repeat;
+overflow: hidden;
+}
+
+
+.under{
+	position:absolute;
+	z-index:2;
+	left: 10px;
+	top: 740px;
+	color:#FFF;
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+}
+
+.modoru{
+	position:absolute;
+	z-index:3;
+	left: 816px;
+	top: 635px;
+	
+}
+
+.caution{
+	position:absolute;
+	z-index:2;
+	left: 820px;
+	top: 48px;
+}
+
+.movie{
+	position: absolute;
+	left: 117px;
+	top: 153px;
+	z-index:4;
+}
+
+
+.under>a:hover { 
+
+	color:#FFF;
+	font-weight: bold; 
+
+	}
+.under>a { 
+	color:#000;
+	font-weight: bold;
+	 }
+
+h1{
+	position:absolute;
+	left: 1px;
+	top: 27px;
+}
+
+.teikyou{
+	position:absolute;
+	z-index:3;
+	left: 757px;
+	top: 633px;
+	font-size:16px;
+
+}

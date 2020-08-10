@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.main{
+  max-width: 1200px;
+  margin: auto;
+}
+
+header{
+  background-image: url(dog.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: right;
+  list-style: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+ul li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+.logo img{
+  position: fixed; /* 要素の位置を固定する */
+  float: left;
+  width: 200px;
+  height: auto;
+  bottom: 10px;
+  left: 10px;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+  color: #fff;
+  font-size: 60px;
+}
+
+.button{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.btn{
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.container{
+    height: 100vh;
+}
+.container h1{
+  text-align: center;
+  width: 300px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-bottom: 2px solid tomato;
+}
+.work{
+  text-align: center;
+}
+
+.work-type{
+  text-align: center;
+  display: inline-block;
+  padding: 10px 60px;
+}
+
+.work-type img{
+  width: 200px;
+  height: 200px;
+}
+
+.work-type h2{
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-bottom: 2px solid tomato;
+}
+.menu{
+  margin: 50px auto;
+  width: 700px;
+  font-size: 30px;
+
+}
+
+.menu table {
+  width: 700px;
+  border-collapse: collapse;
+  border: double 5px tomato;/*表全体を線で囲う*/
+}
+.menu table th {
+  border: solid 2px tomato;/**/
+  padding: 10px;
+  background-color: #e4dfb3;
+  /*破線 1px オレンジ*/
+}
+.menu table td{
+  border: dashed 2px tomato;/**/
+  padding: 10px;
+
+}
+
+
+.ggmap {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+  position: absolute;/*絶対位置への配置となります。*/
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  width: 75%;
+  height: 70%;
+}

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemTopMenu" />
+    <link rel="stylesheet" type="text/css" href="./css/index_top.css" />
+
+    <title>TOPメニュー</title>
+
+    <script type="text/javascript" src="js/index.js"></script>
+    <style>
+    #news_btn{
+	position:absolute;
+	z-index:8;
+	left: 866px;
+	top: 407px;
+	}
+    #lang_table{
+
+    position: fixed;
+    top:20px;
+    right:20px;
+  }
+
+  #Layer5{
+    position: absolute;
+    left: 4px;
+    top:145px;
+    width: 1194px;
+    height: 266px;
+  }
+
+    </style>
+
+</head>
+
+
+<body onload="MM_preloadImages('img/top_4m.png','img/top_4.png','img/top06_m.png')" scroll="no">
+    <!--　上部エリア　-->
+    <div id="Layer5">
+  <table border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td width="270" align="left">
+        <a href="./byouin/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn1','','img/top_1m.png',1)"
+                        onfocus="MM_swapImage('btn1','','img/top_1m.png',1)" onblur="MM_swapImage('btn1','','img/top_1.png',1)">
+          <img src="img/top_1.png" name="btn1" border="0" id="btn1"
+                            alt="病院施設について" /></a>
+      </td>
+      <td width="270" align="center">
+        <a href="./nyuuin/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn2','','img/top_2m.png',1)"
+                        onfocus="MM_swapImage('btn2','','img/top_2m.png',1)" onblur="MM_swapImage('btn2','','img/top_2.png',1)">
+          <img src="img/top_2.png" name="btn2" border="0" id="btn2"
+                            alt="入院のご案内" /></a>
+      </td>
+      <td width="270" align="center">
+        <a href="http://piction.jp/light/" onmouseout="MM_swapImgRestore()"
+                        onmouseover="MM_swapImage('btn3','','img/top_3m.png',1)" onfocus="MM_swapImage('btn3','','img/top_3m.png',1)"
+                        onblur="MM_swapImage('btn3','','img/top_3.png',1)">
+          <img src="img/top_3.png" name="btn3" border="0" id="btn3"
+                            alt="映画・ドラマ" /></a>
+      </td>
+       <td width="280" align="center"><a href="http://www.yahoo.co.jp/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn4','','img/top_4m.png',1)"
+                        onfocus="MM_swapImage('btn4','','img/top_4m.png',1)" onblur="MM_swapImage('btn4','','img/top_4.png',1)"><img src="img/top_4.png" name="btn4" border="0" id="btn4"
+                            alt="インターネットを使う" /></a></td>
+    </tr>
+         <tr>
+               <td width="269" align="center"></td>
+               <td width="269" align="center"></td>
+      <td width="269" align="center">
+        <a href="./event/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn5','','img/top_5m.png',1)"
+                        onfocus="MM_swapImage('btn5','','img/top_5m.png',1)" onblur="MM_swapImage('btn5','','img/top_5.png',1)">
+          <img src="img/top_5.png" name="btn5" border="0" id="btn5"  width="200"   hight="200"
+                            alt="ちょっと一息" /></a>
+      </td>
+    </tr>
+
+    </table>
+</div>
+
+<!--ニュースがあるとはいります。<div id="news_btn"><a href="./news.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('top_6','','img/top06_m.png',1)"><img src="img/top06.png" alt="映画撮影のおしらせ" name="top_6" width="214" height="165" border="0" id="top_6" /></a></div>-->
+
+
+
+<!--病院からのお知らせエリア 3行ニュース-->
+<div id="Layer01" style="position: absolute; left: 269px; top: 631px; width: 628px; height: 99px; z-index: 3">
+        <iframe name="msg" frameborder="0" height="110px" width="635px" scrolling="no" src="msg/index.htm">
+        </iframe>
+</div>
+
+    <div id="lang_table"><table width="450" border="0" cellspacing="5" cellpadding="0">
+  <tr>
+    <td><a href="../MediServer_02eng/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('eng','','img/lang_02engm.png',0)"><img src="img/lang_02eng.png" alt="english" name="eng" width="128" height="29" border="0" id="eng" /></a></td>
+    <td><a href="../MediServer_03chn/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('cha','','img/lang_03cham.png',1)"><img src="img/lang_03cha.png" alt="chainese" name="cha" width="128" height="29" border="0" id="cha" /></a></td>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image6','','img/lang_01jpnm.png',1)"><img src="img/lang_01jpnm.png" alt="japanese" name="Image6" width="127" height="29" border="0" id="Image6" /></a></td>
+  </tr>
+</table>
+</div>
+
+<!--
+<div id="apDiv5"><iframe frameborder="0" height="216px" width="180px" scrolling="no" src="letter.htm"></iframe></div>
+-->
+</body>
+</html>

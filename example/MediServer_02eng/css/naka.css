@@ -1,0 +1,744 @@
+@charset 'utf-8';
+
+body,div,p,a,img {
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0;
+}
+
+body {
+	overflow:hidden;
+	background-color: #FFFFFF;	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: Verdana, Roboto, Consolas,"David", "ＭＳ Ｐゴシック", "メイリオ", Meiryo, sans-serif;
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+	line-height: 35px;
+	letter-spacing: 1px
+}
+
+
+
+#body_p1 {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base1.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 27px;
+}
+#body_p1-2 {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base1-2.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 27px;
+}
+#body_p2 {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base2.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 27px;
+}
+#body_p2-2 {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base2-3.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 27px;
+}
+#body_map {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_map.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+#body_anshin {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_naka_pi.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+#body_riha {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_naka_pa.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+#body_housyasen {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_naka_b.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+#body_kensa {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_naka_m.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+#body_shop {
+	overflow:hidden;
+	background-color: #FFFFFF;
+	background-image: url('../img/base_shop.png');
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+img  {
+  border-style:none;
+}
+#p1midashi {
+	position:absolute;
+	left:37px;
+	top:114px;
+	width:945px;
+	height:72px;
+	z-index:7;
+}
+#p2midashi {
+	position:absolute;
+	left:36px;
+	top:64px;
+	width:945px;
+	height:72px;
+	z-index:7;
+}
+#mae {
+	position:absolute;
+	left:912px;
+	top:638px;
+	width:114px;
+	height:111px;
+	z-index:99;
+}
+#tsugi {
+	position:absolute;
+	left:1029px;
+	top:637px;
+	width:119px;
+	height:111px;
+	z-index:98;
+}
+
+#mae_rest {
+	position:absolute;
+	left:987px;
+	top:609px;
+	width:114px;
+	height:111px;
+	z-index:97;
+}
+#tsugi_rest {
+	position:absolute;
+	left:1029px;
+	top:637px;
+	width:119px;
+	height:111px;
+	z-index:96;
+}
+#menu_close {
+	position:absolute;
+	left:994px;
+	top:694px;
+	width:180px;
+	height:63px;
+	z-index:6;
+}
+#title {
+	position:absolute;
+	left:170px;
+	top:20px;
+	width:500px;
+	height:52px;
+	z-index:6;
+	color: #FFF;
+	font-size: 36px;
+	line-height: 45px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+#title2 {
+	position:absolute;
+	left:200px;
+	top:6px;
+	width:553px;
+	height:42px;
+	z-index:6;
+	color: #FFF;
+	font-size: 27px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+#title_center{
+	position:absolute;
+	left:1px;
+	top:20px;
+	width:1193px;
+	height:70px;
+	z-index:3;
+}
+#link {
+	position:absolute;
+	left:375px;
+	top:664px;
+	width:820px;
+	height:72px;
+	z-index:7;
+}
+
+#mark {
+	position:absolute;
+	left:1024px;
+	top:732px;
+	width:172px;
+	height:30px;
+	z-index:8;
+}
+
+#mark8 {
+	position:absolute;
+	left:919px;
+	top:732px;
+	width:277px;
+	height:30px;
+	z-index:8;
+}
+#mark8_m {
+	position:absolute;
+	left:865px;
+	top:732px;
+	width:277px;
+	height:29px;
+	z-index:8;
+}
+#mark8_3m {
+	position:absolute;
+	left:708px;
+	top:732px;
+	width:277px;
+	height:29px;
+	z-index:8;
+}
+#no {
+	position:absolute;
+	left:846px;
+	top:713px;
+	width:46px;
+	height:32px;
+	z-index:7;
+}
+.announce {
+	color: #F39;
+	font-family: "David";
+	font-size: 27px;
+}
+.announce_32px {
+	color: #F39;
+	font-family: "David";
+	font-size: 32px;
+	font-weight:bold
+}
+.komidashi {
+	color: #1E9CD3;
+	font-family: "David";
+	font-size: 36px;
+}
+
+a:link {/*未訪問のリンク*/
+    color:#0072ff;
+    font-style:normal;
+    text-decoration:none;
+}
+
+a:visited {/*訪問後のリンク*/
+    color:#0072ff;
+    text-decoration:none;
+}
+a:hover {/*マウスをのせたとき*/
+	color:#EF608C;
+	font-style:normal;
+	text-decoration:none;
+}
+
+
+.under{
+	position:absolute;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 26px;
+	line-height: 30px;
+	color:#44448C;
+	top:680px;
+	left: 20px;
+	width: 767px;
+	letter-spacing: 0;
+
+}
+
+.honmon {
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 27px;
+	line-height: 30px;
+	letter-spacing: 1px
+}
+
+
+.px29 {
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 29px;
+	line-height: 45px;
+	letter-spacing: 1px
+}
+
+.px30 {
+	font-size: 30px;
+	line-height: 45px;
+}
+.px26 {
+	font-size: 26px;
+	line-height: 45px;
+}
+.px27 {
+	font-size: 27px;
+	line-height: 45px;
+}
+.lh35pxfs26px {
+	font-size: 26px;
+	line-height: 45px;
+}
+.aqua● {
+	font-size: 27px;
+	color: #859CE5;
+}
+.blue● {
+	font-size: 27px;
+	color: #A9D2F7;
+}
+.orange● {
+	font-size: 29px;
+	color: #ff7f50;
+}
+.gold● {
+	font-size: 29px;
+	color: #ffd700;
+}
+
+.place {
+	font-size: 29px;
+	color: #30C;
+	line-height: 38px;
+}
+.line_height40 {
+	font-size: 29px;
+	line-height: 40px;
+}
+.line_height40_color {
+	font-size: 29px;
+	line-height: 40px;
+	color:#47459B;
+}
+.kon33 {
+	font-size: 33px;
+	line-height: 55px;
+	color: #00009E;
+}
+.pink36px {
+	font-size: 36px;
+	color: #FF4A4A;
+}
+p.box {
+   border-bottom: 1px dotted blue;
+}
+hr {
+   border-width: 2px 0px 0px 0px;
+   border-style: dotted; 
+   border-color: blue; 
+   height: 1px; 
+}
+div.left {
+	text-align: left;
+	float: left;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 26px;
+	line-height: 36px;
+	color: #009
+}
+div.right { text-align: right;
+            font-family: "ＭＳ Ｐゴシック";
+	        font-size: 26px;
+	        line-height: 36px;
+			color: #009
+}
+.lh32pxfs25 {
+	font-size: 25px;
+	line-height: 32px;
+	color: #6cb250;
+}
+.px24 {
+	font-size: 24px;
+	color: #000;
+	letter-spacing:0.5px;
+}
+.blue24 {
+	font-size: 24px;
+	color: #669;
+	letter-spacing:1px;
+	line-height: 35px;
+}
+.blue26 {
+	font-size: 26px;
+	color: #47459B;
+	letter-spacing:1px;
+	line-height: 35px;
+}
+.brown {
+	color: #682F2F;
+	font-size: 24px;
+}
+.gray24 {
+	font-size: 24px;
+	color: #999;
+	letter-spacing: 5px;
+}
+.gray27 {
+	font-size: 27px;
+	color: #5D7189;
+}
+.honmon23 {
+	font-size: 23px;
+	color: #6666CC;
+	line-height: 33px;
+}
+.cian27 {
+	font-size: 27px;
+	color: #2F64A5;
+}
+
+/*翻訳時追加スタイル
+両サイドカットリボン*/
+
+.ribbon1 {
+    display: inline-block;
+    height: 59x;/*リボンの高さ*/
+    line-height: 59px;/*リボンの高さ*/
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 30px;/*横の大きさ*/
+    font-size: 40px;/*文字の大きさ*/
+    background-image: url(../img/ribon.png);
+    color: #483d8b;/*文字色*/
+    box-sizing: border-box;
+    position: relative;
+    font-family: "David";
+}
+
+.ribbon1:before, .ribbon1:after{
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+
+.ribbon1:before{
+    top: 0;
+    left: 0;
+    border-width: 30px 0px 30px 15px;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+}
+
+.ribbon1:after{
+    top: 0;
+    right: 0;
+    border-width: 30px 15px 30px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+}
+
+/*右サイドカットリボン*/
+.ribbon4 {
+    display: inline-block;
+    position: relative;
+    font-size: 45px;/*文字の大きさ*/
+    height: 59px;/*高さ*/
+    line-height: 59px;/*高さ*/
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 40px 0 10px;/*文字の左右の余白*/
+    background-image: url(../img/ribon.png);
+    color: #483d8b;/*文字色*/
+    box-sizing: border-box;
+    font-family: "David";
+}
+
+.ribbon4:after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 0px;
+    z-index: 1;
+}
+
+.ribbon4:after {
+    top: 0;
+    right: 0;
+    border-width: 30px 15px 30px 0px;
+    border-color: transparent #fff transparent transparent;
+    border-style: solid;
+}
+
+#titlec{
+width:100%;
+height:55px;
+text-align:center;
+letter-spacing:10px;
+font-family: "David";
+
+}
+
+
+#titlec h1{
+	font-size: 60px;
+	line-height: 60px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #191970;
+	margin-top:20px;
+
+}
+
+#titlec h2{
+	font-size: 50px;
+	line-height: 50px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #191970;
+	margin-top:25px;
+}
+
+#titlec h3{
+	font-size: 45px;
+	line-height: 50px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #191970;
+	margin-top:30px;
+	letter-spacing: 0;
+}
+
+#titlec h4{
+	font-size: 45px;
+	line-height: 45px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #191970;
+	margin-top:10px;
+	text-align: center;
+}
+
+.pink{
+	color:#ff1493;}
+
+
+
+#basic{
+	background-image: url('../img/base_all.png');
+	background-repeat: no-repeat;
+	overflow: hidden;
+
+}
+
+#title{
+width:100%;
+height:55px;
+text-align:center;
+letter-spacing:10px;
+
+}
+
+
+#title h1{
+	font-family: "David";
+	font-size: 60px;
+	line-height: 60px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #191970;
+	margin-top:25px;
+}
+
+#title h2{
+	font-family: "David";
+	font-size: 55px;
+	line-height: 55px;
+	color: #ffffff;
+	text-shadow: 0 0 5px #191970;
+	margin-top:35px;
+}
+
+
+ul{
+	font-size: 0;
+}
+
+
+/*薄紫のボタン縦並び*/
+.pp_btn > li {
+	margin: 5px 40px 40px 10px;
+  	position: relative;
+  	list-style-type: none;
+  	vertical-align: middle;
+	width:290px;
+	height:85px;
+  	border: 2px solid #ffffff;
+  	background: #f2e3ff;
+
+}
+
+.pp_btn > li a {
+	width:290px;
+	height:85px;
+	box-shadow: 1px 3px 3px 3px rgba(122,30,42,0.4);
+	border: 2px solid #ffffff;
+  	color: #483d8b;
+  	display: block;
+  	position: relative;
+  	text-align: center;
+  	text-decoration: none;
+  	transition: all ease 0.2s;
+
+
+}
+
+.pp_btn > li a:hover {
+border: 2px solid #87cefa;
+color: #ffffff;
+background-color: #483d8b;
+box-shadow: 1px 3px 3px 3px rgba(255,255,255,1.0);
+width:290px;
+height:85px;
+color: #ffffff;
+
+}
+
+/*1行*/
+.pp_btn h2{
+	font-size: 27px;
+  	line-height: 85px;
+	margin-top: 0;
+	font-family: "David";
+
+}
+
+/*2行*/
+.pp_btn h3{
+	font-size: 27px;
+	line-height: 34px;
+	margin-top: 10px;
+	font-family: "David";
+}
+
+
+/*薄紫のボタン横並び*/
+.pps_btn > li {
+	margin: 10px 40px 50px 10px;
+    display: inline-block;
+  	position: relative;
+  	list-style-type: none;
+  	vertical-align: middle;
+	width:300px;
+	height:85px;
+  	border: 2px solid #ffffff;
+  	background: #f2e3ff;
+
+}
+
+.pps_btn > li a {
+	width:300px;
+	height:85px;
+	box-shadow: 1px 3px 3px 3px rgba(122,30,42,0.4);
+	border: 2px solid #ffffff;
+  	color: #483d8b;
+  	display: block;
+  	position: relative;
+  	text-align: center;
+  	text-decoration: none;
+  	transition: all ease 0.2s;
+
+
+}
+
+.pps_btn > li a:hover {
+border: 2px solid #87cefa;
+color: #ffffff;
+background-color: #483d8b;
+box-shadow: 1px 3px 3px 3px rgba(255,255,255,1.0);
+width:300px;
+height:85px;
+color: #ffffff;
+
+}
+
+/*1行*/
+.pps_btn h2{
+	font-size: 27px;
+  	line-height: 85px;
+	margin-top: 0;
+	font-family: "David";
+
+}
+
+/*2行*/
+.pps_btn h3{
+	font-size: 27px;
+	line-height: 34px;
+	margin-top: 10px;
+	font-family: "David";
+}
+
+
+
+
+
+

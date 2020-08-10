@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemGuide" />
+    <link rel="stylesheet" type="text/css"  >
+    <link rel="stylesheet" type="text/css"  href="../../css/menu.css">
+	<title>自己注射薬の使い方</title>
+
+
+	<style type="text/css">
+
+ /*　　最初だけが大きいボタン*/
+.pop_btn2 > li {
+  /*display: inline-block;*/
+  height: 70px;
+  margin: 0;
+  position: relative;
+  width: 550px;
+  list-style-type: none;
+  padding: 10px 20px 10px 0px ;
+}
+
+.pop_btn2 > li a {
+  color:#512f0d;
+  border: transparent 2px solid;
+  display: block;
+  font-family: "ＭＳ ゴシック",sans-serif;
+  height: 70px;
+  width: 550px;
+  line-height: 70px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  
+}
+
+.pop_btn2 > li a:hover {
+background: #fffdf7; /* Old browsers */
+background: -moz-linear-gradient(left, #fffdf7 0%, #fff4ad 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fffdf7 0%,#fff4ad 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fffdf7 0%,#fff4ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', endColorstr='#fff4ad',GradientType=1 ); /* IE6-9 */
+  border:#fcc3b4 2px solid ;
+  color: #397c5e;
+  height: 70px;
+  line-height: 70px;
+  width: 550px;
+}
+
+ /*　　最初だけが大きいボタン*/
+
+.pop_btn2 > li:first-child {
+  /*display: inline-block;*/
+  height: 140px;
+  margin: 0;
+  position: relative;
+  width: 550px;
+  list-style-type: none;
+  padding: 10px 20px 10px 0px ;
+}
+
+.pop_btn2 > li:first-child a {
+  color:#512f0d;
+  border: transparent 2px solid;
+  display: block;
+  font-family: "ＭＳ ゴシック",sans-serif;
+  height: 140px;
+  width: 550px;
+  line-height: 70px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  
+}
+
+.pop_btn2 > li:first-child a:hover {
+background: #fffdf7; /* Old browsers */
+background: -moz-linear-gradient(left, #fffdf7 0%, #fff4ad 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fffdf7 0%,#fff4ad 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fffdf7 0%,#fff4ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', endColorstr='#fff4ad',GradientType=1 ); /* IE6-9 */
+  border:#fcc3b4 2px solid ;
+  color: #397c5e;
+  height: 140px;
+  line-height: 70px;
+  width: 550px;
+}
+
+
+.pop_btn2 > li a:hover > #bluetex{
+  color: #397c5e;
+  transition: all ease 0.3s;
+}
+
+.pop_btn2 > li a:hover > #greentex{
+  color: #397c5e;
+  transition: all ease 0.3s;
+}
+
+.pop_btn2 > li a:hover {
+background: #fffdf7; /* Old browsers */
+background: -moz-linear-gradient(left, #fffdf7 0%, #fff4ad 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #fffdf7 0%,#fff4ad 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #fffdf7 0%,#fff4ad 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffdf7', endColorstr='#fff4ad',GradientType=1 ); /* IE6-9 */
+  border:#fcc3b4 2px solid ;
+  color: #397c5e;
+  height: 70px;
+  line-height: 70px;
+  width: 550px;
+}
+
+.pop_btn2 > li a:hover > #bluetex{
+  color: #397c5e;
+  transition: all ease 0.3s;
+}
+
+.pop_btn2 > li a:hover > #greentex{
+  color: #397c5e;
+  transition: all ease 0.3s;
+}
+
+
+	</style>
+
+</head>
+<body scroll="no">
+<div class="wrapper">
+
+<div id="header">
+<table width="100%" >
+<tr>
+<td height="100px" width="42px"><td id="hiro20"><h1>自己注射薬の使い方</h1></td>	
+</tr>	
+</table>
+</div>
+
+<div id="left">
+  <ul class="pop_btn2">
+      <li id="long">
+        <a href="./03cyusya/j01.html"><span id="bluetex">●</span>ノボラピッド注・トレシーバ注・<br>
+&nbsp;&nbsp;ライゾデグ配合注フレックスタッチ</a>
+      </li>
+      <li>
+        <h2><a href="./03cyusya/j02.html"><span id="greentex">●</span>レベミル注フレックスペン</a></h2>
+      </li>
+           <li>
+        <h2><a href="./03cyusya/j03.html"><span id="bluetex">●</span>ノボラピッド30ミックス注フレックスペン</a></h2>
+      </li>
+      <li>
+        <h2><a href="./03cyusya/j04.html"><span id="greentex">●</span>アピドラ注ソロスター</a></h2>
+      </li>
+           <li>
+        <h2><a href="./03cyusya/j05.html"><span id="bluetex">●</span>インスリングラルギンBS注 ミリオペン</a></h2>
+      </li>
+      </ul>
+      </div>
+
+<div id="right">
+  <ul class="pop_btn">
+        <li>
+        <h2><a href="./03cyusya/j06.html"><span id="greentex">●</span>トルリシティ皮下注アテオス</a></h2>
+      </li>     
+      </ul>
+      </div>
+
+
+<div id="footer">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="6%" height="85px"><div class="home"><a href="../../index.htm"></a></div></td>
+    <td width="94%"><<<a href="../../index.htm">スタート画面</a><<<a href="../index.html">いっしょに学ぼう</a>
+    <<<a href="./index.html">「お薬について」へもどる</a>
+    </td>
+  </tr>
+
+</table>
+
+
+</div>
+
+
+</div>
+</body>
+</html>

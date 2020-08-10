@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemTopMenu" />
+    <link rel="stylesheet" type="text/css" href="./css/index_top_c.css" />
+     <link rel="stylesheet" type="text/css" href="./css/calendar.css" />
+
+    <title>TOPメニュー</title>
+
+    <script type="text/javascript" src="./index.js"></script>
+    <script type="text/javascript" src="calendar2.js"></script>
+    <!--　日付・時計　-->
+	<SCRIPT LANGUAGE="JavaScript">
+	<!--
+	function Clock3(){
+	myDate=new Date();
+	myyear=myDate.getFullYear();
+	mymonth=myDate.getMonth()+1;
+	myday=myDate.getDate();
+	myhour=myDate.getHours();
+	myminute=myDate.getMinutes();
+	mysecond=myDate.getSeconds();
+	if (myyear<1000) {myyear+=1900}
+	if (myhour<10) {myhour="0"+myhour}
+	if (myminute<10) {myminute="0"+myminute}
+	if (mysecond<10) {mysecond="0"+mysecond}
+	//document.myform3.myclock3.value=" "+myyear+"年"+mymonth+"月"+myday+"日"+myhour+"時"+myminute+"分"+mysecond+"秒";
+	document.myform3.myclock3.value=""+myhour+":"+myminute+":"+mysecond;
+	setTimeout("Clock3()",1000);
+	}
+	//-->
+	</SCRIPT>
+	<style type="text/css">
+	
+	
+<!--
+body {
+	background-image: url(img/base_top.png);
+	background-repeat: no-repeat;
+}
+
+input[name=myclock3] {
+	border: hidden;
+	background:none;
+	font-family: Arial;
+	font-size:72px;
+	color:white;
+	text-shadow:0px 0px 2px yellow;
+	position: absolute;
+	left: 857px;
+	top: 105px;
+}
+
+.title{
+	position: absolute;
+	left: -2px;
+	top: 33px;
+}
+.bt1 {
+	position:absolute;
+	z-index:3;
+	left: 0px;
+	top: 468px;
+}
+
+.bt2 {
+	position:absolute;
+	top: 468px;
+	left: 275px;
+	z-index:3;
+}
+
+.bt3 {
+	position:absolute;
+	top: 468px;
+	left: 550px;	
+	z-index:3;
+}
+
+.bt4 {
+	position:absolute;
+	top: 468px;
+	left: 825px;
+	z-index:3;
+}
+
+
+#apDiv6 {
+	position:absolute;
+	left:878px;
+	top:210px;
+	width:271px;
+	height:307px;
+	z-index:5;
+}
+#apDiv7 {
+	position:absolute;
+	left:955px;
+	top:500px;
+	width:214px;
+	height:258px;
+	z-index:3;
+}
+
+
+#apDiv1{
+	position:absolute;
+	left:-3px;
+	top:103px;
+	height:190px;
+	width:700px;
+	z-index:1;
+}
+
+
+    #apDiv1 iframe {
+	text-align: left;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;	
+}
+
+.companyname{
+	position:absolute;
+	left: 1058px;
+	top: 736px;
+	color:#2f4f4f;
+	font-family:Arial;
+	font-size:14px;
+	
+}
+
+
+
+-->
+
+
+    </style>
+</head>
+
+<body scroll="no" onload="MM_preloadImages('img/top_1_m.png','img/top_3_m.png','img/top_1.png','img/top_2.png','img/top_2_m.png','img/top_4_m.png','img/btn2-m.png','img/btn3-m.png','img/btn4-m.png','img/btn1-m.png')">
+
+
+<div class="title"><img src="img/title.png" alt="病院名イメージ" height="" width="" /></div>
+
+<div class="bt1"><a href="gaiyou/index.htm"><img src="img/btn1.png" alt="病院概要" width="274" height="266" border="0" id="Image1" onmouseover="MM_swapImage('Image1','','img/btn1-m.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+
+<div class="bt2"><a href="guide/index.htm"><img src="img/btn2.png" alt="入院案内" width="274" height="266" border="0" id="Image2" onmouseover="MM_swapImage('Image2','','img/btn2-m.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+
+<div class="bt3"><a href="benri/index.htm"><img src="img/btn3.png" alt="便利帳" width="274" height="266" border="0" id="Image3" onmouseover="MM_swapImage('Image3','','img/btn3-m.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+
+<div class="bt4"><a href="enjoy/index.htm"><img src="img/btn4.png" alt="各種お楽しみコンテンツ" width="274" height="266" border="0" id="Image4" onmouseover="MM_swapImage('Image4','','img/btn4-m.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>
+
+
+<!--<div id="bt1"><a href="gaiyou/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn1','','img/top_1_m.png',1)"
+		onfocus="MM_swapImage('btn1','','img/top_1_m.png',1)" onblur="MM_swapImage('btn1','','img/top_1.png',1)"><img src="img/top_1.png" name="btn1" width="215" height="205" border="0" id="btn1" alt="病院概要" /></a></div>
+
+<div id="bt2">
+	<a href="./guide/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn2','','img/top_2_m.png',1)"
+		onfocus="MM_swapImage('btn2','','img/top_2_m.png',1)" onblur="MM_swapImage('btn2','','img/top_2.png',1)">
+		<img src="img/top_2.png" name="btn2" width="215" height="205" border="0" id="btn2" alt="入退院案内" />
+	</a>
+</div>
+
+<div id="bt3"><a href="benri/index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('btn3','','img/top_3_m.png',1)" onfocus="MM_swapImage('btn3','','img/top_3_m.png',1)"
+		onblur="MM_swapImage('btn3','','img/top_3.png',1)"><img src="img/top_3.png" name="btn3" width="215" height="205" border="0" id="btn3" alt="便利帳" /></a></div>
+
+
+<div id="bt4"><a href="enjoy/index.htm"><img src="img/top_4.png" alt="お楽しみコンテンツ" name="btn4" width="215" height="205" border="0" id="btn4" onmouseover="MM_swapImage('btn4','','img/top_4_m.png',1)" onmouseout="MM_swapImgRestore()" /></a></div>-->
+
+<!--病院からのお知らせエリア 3行ニュース-->
+
+<div id="Layer01"  style="position: absolute; left: 19px; top: 147px; width: 660px; height: 126px; z-index: 3"
+
+>
+  <iframe name="msg" frameborder="0" height="123px" width="660px" scrolling="no" src="msg/index.htm"> </iframe>
+</div>
+
+<div class="companyname"><a>vita+solution vitas</a>
+</div>
+    
+<div id="apDiv1"><img src="img/msg.png" alt="3行ニュース" height="190px" width="700px" /></div>
+
+
+<!--ミニカレンダー-->
+<div id="apDiv6">
+
+  <script type="text/javascript">
+                        calendar_print();
+                    </script>
+</div>
+
+<!--　日付・時計　-->
+<FORM name="myform3">
+<INPUT name="myclock3" size="4"></FORM>
+
+
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+Clock3();
+//-->
+</SCRIPT>
+</body>
+</html>

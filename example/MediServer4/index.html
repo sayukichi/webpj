@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemTopMenu" />
+    <link rel="stylesheet" type="text/css" href="./css/calendar.css" />
+	<title>小笠原クリニック札幌病院</title>
+<script type="text/javascript" src="calendar2.js"></script>
+
+	<style type="text/css">
+
+body{
+		background-image: url(img/base_top.png);
+		background-repeat: no-repeat;
+		overflow: hidden;
+	}
+	
+#calbg{
+	position:absolute;
+	left: 892px;
+	top: 0px;
+}
+
+
+#apDiv6 {
+	position:absolute;
+	left:918px;
+	top:14px;
+	z-index:5;
+}
+
+input[name=myclock3] {
+	border: hidden;
+	background:none;
+	font-family: Arial;
+	font-size:60px;
+	color:#777;
+	position: absolute;
+	left: 909px;
+	top: 33px;
+}
+
+#table_btn{
+	position:absolute;
+	left: 19px;
+	top: 340px;
+	width: 847px;
+	height: 352px;
+}
+
+#right_btn{
+	position:absolute;
+	top: 340px;
+	left: 897px;
+}
+
+#staff{
+	position:absolute;
+	left: 1010px;
+	top: 713px;
+}
+
+		
+	</style>
+	<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+    </script>
+</head>
+<body scroll="no">
+
+<!--病院からのお知らせエリア 3行ニュース-->
+<div id="Layer01" style="position: absolute; left: 148px; top: 171px; width: 628px; height: 99px; z-index: 3">
+  <iframe name="msg" frameborder="0" height="110px" width="635px" scrolling="no" src="msg/index.htm"> </iframe>
+</div>
+
+<!--カレンダー-->
+
+<div id="apDiv6">
+
+  <script type="text/javascript">
+                        calendar_print();
+                    </script>
+</div>
+<div id="calbg"><img src="img/cal.png" width="290" height="315" alt="calbg" /></div>
+
+<!--ボタン-->
+<div id="table_btn"><table border="0" cellspacing="10" cellpadding="0">
+  <tr>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('01','','img/01m.png',1)"><img src="img/01.png" alt="01" name="01" width="272" height="167" border="0" id="01" /></a></td>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('02','','img/02m.png',1)"><img src="img/02.png" alt="02" name="02" width="272" height="167" border="0" id="02" /></a></td>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('03','','img/03m.png',1)"><img src="img/03.png" alt="03" name="03" width="271" height="167" border="0" id="03" /></a></td>
+    
+    
+  </tr>
+  <tr>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('04','','img/04m.png',1)"><img src="img/04.png" alt="04" name="04" width="272" height="167" border="0" id="04" /></a></td>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('05','','img/05m.png',1)"><img src="img/05.png" alt="05" name="05" width="272" height="167" border="0" id="05" /></a></td>
+    <td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('06','','img/06m.png',1)"><img src="img/06.png" alt="06" name="06" width="271" height="167" border="0" id="06" /></a></td>
+    
+  </tr>
+</table>
+</div>
+
+<div id="right_btn"><table border="0" cellspacing="10" cellpadding="0">
+<tr>
+<td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('07','','img/07m.png',1)"><img src="img/07.png" alt="07" name="07" width="272" height="167" border="0" id="07" /></a></td>
+</tr>
+<tr>
+<td><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('08','','img/08m.png',1)"><img src="img/08.png" alt="08" name="08" width="272" height="167" border="0" id="08" /></a></td>
+</tr>
+   
+</table>
+</div>
+
+<div id="staff"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('staff','','img/staff_m.png',1)"><img src="img/staff.png" alt="staff" name="staff" width="176" height="50" border="0" id="staff2" /></a></div>
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Style-Type" content="text/css" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <meta name="description" content="BedSideSystemTopMenu" />
+    <meta name="keywords" content="BedSideSystemTopMenu" />
+    <link rel="stylesheet" type="text/css" href="./css/common.css" />
+	<title>日本海総合病院ＴＯＰ</title>
+<script type="text/javascript" src="calendar2.js"></script>
+
+	<style type="text/css">
+
+body{
+		background-image: url(./img/base.png);
+		background-repeat: no-repeat;
+		overflow: hidden;
+		font-family: "ＭＳ ゴシック",sans-serif;
+	}
+
+#Layer01{
+	position: absolute;
+	left: 22px;
+	top: 74px;
+	width: 628px;
+	height: 99px;
+	z-index: 3
+}
+
+#date{
+	font-size: 36px;
+	position: absolute;
+	top:20px;
+	right: 30px;
+	color: #191970;
+	
+}
+
+.btn01{
+	position:absolute;
+	z-index:3;
+	left:75px;
+	top: 432px;
+	width: 102px;
+	height: 18px;
+}
+.btn03{
+	position:absolute;
+	z-index:3;
+	left:535px;
+	top: 432px;
+	width: 169px;
+	height: 22px;
+}
+.btn02{
+	position:absolute;
+	z-index:3;
+	left: 60px;
+	top: 690px;
+	width: 119px;
+	height: 18px;
+}
+.btn04{
+	position:absolute;
+	z-index:3;
+	left: 580px;
+	top: 690px;
+	width: 102px;
+	height: 18px;
+}
+
+.btn05{
+	position:absolute;
+	z-index:3;
+	height: 17px;
+	width: 313px;
+	left: 224px;
+	top: 472px;
+}
+
+
+
+
+
+a{
+	text-decoration:none;
+	color: #35241f;
+	font-size: 13px;
+	padding:2px 6px;
+
+}
+
+a:link{
+	text-decoration:none;
+	color: #35241f;
+
+}
+a:hover{
+	text-decoration:none;
+	color: #000000;
+	background-color: #ffffff;
+	border-bottom: 2px solid #ff69b4;
+
+}
+a:visited{
+	color: #35241f;
+
+}
+
+#l04{
+	
+letter-spacing: 4px;
+}
+
+    </style>
+
+</head>
+<body scroll="no">
+
+<!--病院からのお知らせエリア 3行ニュース-->
+<div id="Layer01" >
+  <iframe name="msg" frameborder="0" height="110px" width="635px" scrolling="no" src="msg/index.htm"> </iframe>
+</div>
+
+
+<!--日付日時曜日
+<div id="date">
+<script>
+//今日の日付データを変数hidukeに格納
+var hiduke=new Date(); 
+
+//年・月・日・曜日を取得する
+var year = hiduke.getFullYear();
+var month = hiduke.getMonth()+1;
+var week = hiduke.getDay();
+var day = hiduke.getDate();
+
+var yobi= new Array("日","月","火","水","木","金","土");
+
+document.write(year+"年"+month+"月"+day+"日("+yobi[week]+")");
+
+</script>
+</div>
+-->
+
+<div class="btn01" id="l04"><a href="./_01guide/index.html">病院案内</a></div>
+<div class="btn02" id="l04"><a href="./_02info/index.html">入退院案内</a></div>
+<div class="btn03" id="l04"><a href="./_03study/index.html">いっしょに学ぼう</a></div>
+<div class="btn04" id="l04"><a href="./_04meal/index.html">食&nbsp;事</a></div>
+<div class="btn05" id="w70" ><a href="./_01guide/g07/index.html">患者相談窓口について(医療･福祉センター)</a></div>
+</body>
+</html>

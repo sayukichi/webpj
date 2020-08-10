@@ -1,0 +1,155 @@
+@charset 'utf-8';
+
+body,div,p,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow:hidden;
+	background-color: #FFFFFF;
+
+	background-repeat: no-repeat;
+	font-color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+img  {
+  border-style:none;
+}
+
+
+
+
+
+
+
+
+.announce {
+	color: #F39;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 27px;
+}
+
+.red {
+	color: #FF5A5A;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 27px;
+}
+
+
+a:link {/*未訪問のリンク*/
+    color:#0072ff;
+    font-style:normal;
+    text-decoration:none;
+}
+
+a:visited {/*訪問後のリンク*/
+    color:#0072ff;
+    text-decoration:none;
+}
+a:hover {/*マウスをのせたとき*/
+	color:#EF608C;
+	font-style:normal;
+	text-decoration:none;
+}
+
+#apDiv3 {
+	position:absolute;
+	left:224px;
+	top:578px;
+	width:752px;
+	height:28px;
+	z-index:4;
+	font-size: 22px;
+	font-family: "ＭＳ Ｐゴシック";
+}
+
+#link {
+	position:absolute;
+	left:95px;
+	top:686px;
+	width:820px;
+	height:72px;
+	z-index:7;
+}
+
+div.sampled {
+	position:absolute;
+	color: black;
+	font-size:29pt;
+	border:0;
+	line-height: 30px;
+	top: 153px;
+	left: 0px;
+	width: 1197px;
+}
+div.sampled2 {
+	position:absolute;
+	color: black;
+	font-size:29pt;
+	border:0;
+	line-height: 30px;
+	top: 218px;
+	left: 79px;
+	width: 1056px;
+}
+div.title {
+	position:absolute;
+	left:95px;
+	top:26px;
+	width:213px;
+	height:95px;
+	z-index:3;
+}
+div.under{
+	position:absolute;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 26px;
+	color:#44448C;
+	top:700px;
+	left: 30px;
+	width: 1025px;
+}
+
+ul{
+	font-size: 0;
+}
+
+.pop_btn > li {
+    display: inline-block;
+  	background: url(../byouin/img/btn.png) no-repeat;
+	width:318px;
+	height:96px;
+	margin: 15px;
+  	position: relative;
+  	list-style-type: none;
+  	font-size: 25px;
+}
+
+.pop_btn > li a {
+  	background: url(../byouin/img/btn.png) no-repeat;
+	width:318px;
+	height:96px;
+  	color: #483d8b;
+  	display: block;
+  	font-family: "ＭＳ ゴシック",sans-serif;
+  	font-size: 25px;
+  	position: relative;
+  	text-align: center;
+  	text-decoration: none;
+  	transition: all ease 0.2s;
+
+}
+
+.pop_btn > li a:hover {
+background: url(../byouin/img/btnm.png) no-repeat;
+width:318px;
+height:96px;
+color: #ffffff;
+
+}
+
+

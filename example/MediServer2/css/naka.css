@@ -1,0 +1,324 @@
+====================
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+====================
+
+
+/* HTML5 display-role reset for older browsers 
+*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+
+
+body{
+  line-height: 1;
+  overflow: hidden;
+  margin:0;padding:0; 
+  font-family: "ＭＳ ゴシック",sans-serif;  
+	}
+	
+	
+img{
+	margin: 0;
+	padding:0;
+  border-style:none;
+
+}
+
+
+
+a:link {/*未訪問のリンク*/
+    text-decoration:none;
+	 transition: all ease 0.2s;
+}
+
+
+  
+a:hover {/*マウスをのせたとき*/
+  text-decoration:none;
+}
+
+a:visited {/*訪問済み*/
+  text-decoration:none;
+}
+
+a:active {
+  text-decoration:none;
+}
+
+
+
+
+.wrapper {
+  width: 1196px;
+  height: 768px;
+  margin: 0 auto;
+  padding:0;
+background: url(../img/base_main.png);
+}
+
+.wrapper2 {
+  width: 1196px;
+  height: 768px;
+  margin: 0 auto;
+  padding:0;
+background: url(../img/base_white.png);
+}
+
+#header{
+ width: 1196px;
+  height: 10%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+
+#left{
+  width: 47%;
+  height: 80%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+#left2{
+  width: 53%;
+  height: 80%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+#right{
+  width: 53%;
+  height: 80%;
+  margin: 0 ;
+  padding:0;
+  float: left;
+
+}
+#right2{
+  width: 47%;
+  height: 80%;
+  margin: 0 ;
+  padding:0;
+  float: left;
+
+}
+
+#main_naka{
+  width: 100%;
+  height: 80%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+#main_naka2{
+  width: 100%;
+  height: 90%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+#main_naka3{
+  width: 100%;
+  height: 80%;
+  float: left;
+  margin: 0 ;
+}
+
+.maintext{
+	font-size:27px;
+	position:absolute;
+	left: 53px;
+	top: 105px;
+  font-family: "ＭＳ ゴシック",sans-serif;
+}
+
+.maintext th{
+	font-weight:bold;
+	line-height:45px;
+	letter-spacing:5px;
+	color: #397c5e;
+	text-align:left;
+	
+}
+
+.maintext td{
+	color:#512f0d;
+	line-height:35px;
+	text-align:left;
+}
+
+
+  h1{
+    font-size: 56px;
+    color:#512f0d;
+    line-height: 56px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  h2{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 0px;
+    padding-top:10px;
+    margin: 0;
+  }
+
+  h3{
+    font-size: 27px;
+    padding: 0;
+    margin: 0;
+    color: #00608d;
+    background-color: #e0efff;
+    border:2px solid #00608d;    
+    border-radius: 10px;
+    line-height: 40px;
+    padding: 10px 10px 10px 30px;
+    font-weight: normal;
+    font-family: "ＭＳ ゴシック",sans-serif;
+
+
+  }
+
+  /*個別*/
+
+#hiro20{
+  letter-spacing: 20px;
+
+}
+
+#hiro10{
+  letter-spacing: 10px;
+
+}
+
+#tsume02{
+  letter-spacing: -2px;
+
+}
+#tsume05{
+  letter-spacing: -5px;
+
+}
+
+#tsume30{
+  letter-spacing: -30px;
+
+}
+
+
+
+
+#footer{
+  width: 1196px;
+  height: 10%;
+  font-size:22px;
+  color: #ffffff;
+  font-weight:bold;
+}
+
+#footer a:link {/*未訪問のリンク*/
+  color:#3d3d3d;
+  font-style:normal;
+  text-decoration:none;
+	font-size:24px;
+
+	transition: all ease 0.3s;
+}
+#footer a:visited {
+  color:#3d3d3d;
+  font-style:normal;
+  text-decoration:none;
+	font-size:24px;
+ 
+	transition: all ease 0.3s;
+}
+
+  
+#footer a:hover {/*マウスをのせたとき*/
+  color:#ffffff;
+  font-style:normal;
+  text-decoration:none;
+  font-size:24px;
+  background-color: rgba(95,119,222,0.6);
+
+
+}
+
+#footer .home{
+  background: url("../img/home.png"), no-repeat;
+
+}
+
+#footer .home a {
+  
+  width: 67px;
+  height: 60px;
+  display: block;
+
+}
+
+#footer .home a:hover {
+
+    background: url("../img/home_m.png")no-repeat;
+    transition: background ease 0.3s;
+
+}
+

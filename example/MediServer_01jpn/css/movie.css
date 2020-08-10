@@ -1,0 +1,67 @@
+@charset 'utf-8'; 
+
+
+body {
+	overflow:hidden;
+	background-repeat: no-repeat;
+}
+img  {
+  border-style:none;
+}
+
+
+.announce {
+	color: #F03;
+}
+
+a:link {/*未訪問のリンク*/
+    color:#0072ff;
+    font-style:normal;
+    text-decoration:none;
+}
+
+a:visited {/*訪問後のリンク*/
+    color:#0072ff;
+    text-decoration:none;
+}	
+	
+a:hover {/*マウスをのせたとき*/
+	color:#79AD1F;
+	font-style:normal;
+	text-decoration:none;
+}
+
+
+.title {
+	font-size: 29px;
+	font-color: #843C3C;
+	font-family: "ＭＳ Ｐゴシック";
+	color: #600;
+	letter-spacing: 0.3em;
+}
+
+#midashi {
+	position:absolute;
+	left:94px;
+	top:8px;
+	width:213px;
+	height:95px;
+	z-index:3;
+}
+
+#mae {
+	position:absolute;
+	left:58px;
+	top:594px;
+	width:114px;
+	height:111px;
+	z-index:5;
+}
+#apDiv1 {
+	position:absolute;
+	left:51px;
+	top:100px;
+	width:221px;
+	height:486px;
+	z-index:6;
+}

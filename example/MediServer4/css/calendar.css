@@ -1,0 +1,25 @@
+/*＝＝＝トップページ・カレンダー＝＝＝*/
+#X_calendar_boxId { }
+#sample_3a { }
+/*＝＝＝テーブル＝＝＝*/
+.X_calendar_table { border-collapse: collapse; border: 1px solid #ffffff; font-size: 16pt; }
+/*＝＝＝枠＝＝＝*/
+.X_calendar_table td { border: 1px solid #c4d2f2; text-align: center; padding:2.0px;}
+/*＝＝＝＝＝＝*/
+.X_calendar_caption { }
+/*＝＝＝月移動＝＝＝*/
+.X_calendar_table a { padding: 0; text-decoration: none; color: #0fa093; }
+/*＝＝＝＝＝＝*/
+.X_calendar_table a:visited { padding: 0; text-decoration: none; color: #0fa093; }
+/*＝＝＝なんでもない日＝＝＝*/
+.X_calendar_default { backGround-color: #fcfcfc; }
+/*＝＝＝曜日＝＝＝*/
+.X_calendar_weeks { backGround-color: #deecf2; color: #606060; border: 1px solid #ffffff; }
+/*＝＝＝今日＝＝＝*/
+.X_calendar_today { backGround-color: #fff135; font-weight: bold }
+/*＝＝＝日曜＝＝＝*/
+.X_calendar_holiday { backGround-color: #ffd3d3; }
+/*＝＝＝土曜＝＝＝*/
+.X_calendar_saturday { backGround-color: #c1edff; }
+/*＝＝＝空白＝＝＝*/
+.X_calendar_none { backGround-color: #ffffff; color: #808080; }

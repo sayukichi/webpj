@@ -1,0 +1,333 @@
+====================
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+====================
+
+
+/* HTML5 display-role reset for older browsers
+*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+
+
+body{
+  line-height: 1;
+  overflow: hidden;
+  margin:0;padding:0;
+  font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro",sans-serif;
+  }
+
+
+img{
+  margin: 0;
+  padding:0;
+  border-style:none;
+
+}
+
+a:link {/*未訪問のリンク*/
+    text-decoration:none;
+   transition: all ease 0.2s;
+}
+
+
+a:hover {/*マウスをのせたとき*/
+  text-decoration:none;
+}
+
+a:visited {/*訪問済み*/
+  text-decoration:none;
+}
+
+a:active {
+  text-decoration:none;
+}
+
+
+
+
+.wrapper2 {
+  width: 960px;
+  height: 540px;
+  margin: 0 auto;
+  padding:0;
+background: #fcfcfc; /* Old browsers */
+background: -moz-linear-gradient(top, #fcfcfc 0%, #fcfcfc 21%, #dee5df 60%, #a7baaf 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #fcfcfc 0%,#fcfcfc 21%,#dee5df 60%,#a7baaf 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #fcfcfc 0%,#fcfcfc 21%,#dee5df 60%,#a7baaf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#a7baaf',GradientType=0 ); /* IE6-9 */
+}
+
+#header{
+  width: 960px;
+  height: 10%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+
+#header-bar{
+
+  background: #b4e391; /* Old browsers */
+  background: -moz-linear-gradient(left, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+#main{
+  width: 100%;
+  height: 80%;
+  float: left;
+  padding:0;
+
+}
+
+.maintext{
+  width: 900px;
+  height: 380px;
+  margin: 0 auto;
+  padding: 30px 40px 40px 60px;
+  background-color: rgba(255,255,255,0.8);
+  border-right: 12px solid #004ea2;
+  border-left: 5px solid #009fa8;
+  color: #3d3d3d;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.maintextL{
+  width: 900px;
+  height: 380px;
+  margin: 0 auto;
+  padding: 30px 40px 40px 60px;
+  background-color: rgba(255,255,255,0.8);
+  border-right: 12px solid #004ea2;
+  border-left: 5px solid #009fa8;
+  color: #3d3d3d;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+#footer{
+  width: 960px;
+  height: 10%;
+  font-size:20px;
+  color: #ffffd1;
+  font-weight:bold;
+  float: left;
+  background:#191970;
+
+
+}
+
+#footer a:link {/*未訪問のリンク*/
+  color:#ffffd1;
+  font-style:normal;
+  text-decoration:none;
+  font-size:20px;
+  transition: all ease 0.2s;
+}
+#footer a:visited {
+  color:#ffffff;
+  font-style:normal;
+  text-decoration:none;
+  font-size:20px;
+  transition: all ease 0.2s;
+}
+
+
+#footer a:hover {/*マウスをのせたとき*/
+  color:#ffffff;
+  font-style:normal;
+  text-decoration:none;
+  font-size:20px;
+}
+
+
+.signbord{
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  width: 280px;
+  height: 120px;
+}
+
+#back{
+  background: url("../img/back.png") no-repeat;
+}
+
+#back a {
+  background: url("../img/back.png") no-repeat;
+  width: 140px;
+  height: 120px;
+  display: block;
+
+}
+
+#back a:hover {
+
+    background: url("../img/back_m.png")no-repeat;
+
+    transition: all ease 0.4s;
+
+}
+
+#next{
+  background: url("../img/next.png") no-repeat;
+
+
+}
+
+#next a {
+  background: url("../img/next.png") no-repeat;
+  width: 140px;
+  height: 120px;
+  display: block;
+
+}
+
+#next a:hover {
+
+    background: url("../img/next_m.png")no-repeat;
+
+    transition: all ease 0.4s;
+
+}
+
+
+
+
+
+
+#green-gradient-bar {
+  background: #b4e391; /* Old browsers */
+  background: -moz-linear-gradient(left, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391',
+   endColorstr='#b4e391',GradientType=0 ); /* IE6-9 */
+  }
+
+
+  h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color:#3d3d3d;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+  }
+
+  h2:hover{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    transition: all ease 0.2s;
+    text-align: right;
+    padding: 0 30px 0 0;
+
+  }
+
+  h3{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+  }
+
+
+ /*個別*/
+
+ #glaytex{
+  color: #b0c4de;
+
+ }
+ #redtex{
+	 color:#F33;
+ }
+
+  #bluetex{
+  color: #004ea2;
+ }
+
+  #bluetex a:link{
+  color: #004ea2;
+ }
+
+  #bluetex a:hover{
+  color: #004ea2;
+ }
+
+   #bluetex a:visited{
+  color: #004ea2;
+ }
+
+#ex{
+	background:#FFF;
+	font-weight:bold;
+}
+
+
+
+
+

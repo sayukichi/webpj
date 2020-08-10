@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>カレンダー</title>
+  <script type="text/javascript" src="./jquery.js"></script>
+  <script type="text/javascript" src="./calendar.js"></script>
+  <script type="text/javascript" src="./clock.js"></script>
+  <script type="text/javascript">
+(function($) {
+	$(function() {
+		var c = cal();
+		$('#calendar').append(c);
+		clock('clock');
+	});
+})(jQuery);
+  </script>
+  <style type="text/css" rel="stylesheet">
+body,h1,div,p,table,caption,tr,td {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-size: 24pt;
+	color: white;
+	background: black;
+}
+h1 {
+	padding: 10px 0;
+	font-size: 200%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th,td {
+	padding: 5px;
+}
+th {
+	text-align: center;
+}
+#wapper {
+	width: 800px;
+	height: 480;
+	overflow: hidden;
+}
+#calendar {
+	width: 400px;
+	padding: 10px;
+	font-size: 150%;
+	float: left;
+}
+#calendar caption {
+	color: white;
+	background: navy;
+}
+#calendar td {
+	text-align: right;
+	border: 1px solid #000;
+}
+
+#calendar .today {
+	background: darkgreen;
+}
+#calendar .saturday {
+	color: blue;
+}
+#calendar .sunday {
+	color: red;
+}
+#clock {
+	width: 360px;
+	padding: 10px;
+	font-size: 250%;
+	text-align: center;
+	float: left;
+}
+  </style>
+</head>
+<body scroll="no">
+<div id="wapper">
+<div id="calendar"></div>
+<div id="clock"></div>
+</div><!-- end wapper -->
+</body>
+</html>

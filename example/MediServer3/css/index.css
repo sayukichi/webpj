@@ -1,0 +1,459 @@
+@charset 'utf-8';
+
+/*ページタイトル*/
+body,div,p,a,img {
+	margin: 0;
+	padding: 0;
+}
+
+a:link {color: navy;} 
+a:visited {color: navy;} 
+a:hover {color: #dc143c;} 
+a:active { color: #dc143c;}
+
+
+#body1 {
+	background-image:url(../guide/img/base1.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+
+#body2 {
+	background-image:url(../guide/img/base2.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+
+#body-m {
+	background-image:url(../guide/img/base-m.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}	
+
+div.note5 {
+	margin-top: 2.5em;
+	margin-left: 1.4em;
+	margin-bottom: 0em;
+	font-size:26px;
+	font-weight:bold;}	
+
+div.note5m {
+	margin-top: 2.5em;
+	margin-left: 3.5em;
+	margin-bottom: 0.5em;
+	font-size:26px;}	
+
+div.note5m2 {
+	margin-top: 0.5em;
+	margin-left: 3.5em;
+	margin-bottom: 0em;
+	font-size:26px;}
+	
+p.note5t {
+	margin-top: 0em;
+	margin-left: 0.5em;
+	margin-bottom: 0em;
+	font-size:26px;}	
+
+
+/*#title {
+	color: #000000;
+	border-style:outset;
+	border-color:#00FF99;
+	border-width:10px;
+	padding-left:20px;
+}
+
+#title_text {
+	font-family:"ＭＳ Ｐゴシック";
+	font-size: 28px;
+}*/
+
+/*各ボタン画像*/
+#btn1_img {
+	position:absolute;
+	left:30px;
+	top:160px;
+	z-index:1;
+	
+}
+
+#btn2_img {
+	position:absolute;
+	left:30px;
+	top:250px;
+	z-index:2;
+	
+}
+
+#btn3_img {
+	position:absolute;
+	left:30px;
+	top:340px;
+	z-index:3;
+
+}
+
+#btn4_img {
+	position:absolute;
+	left:30px;
+	top:430px;
+	z-index:4;
+
+}
+
+#btn5_img {
+	position:absolute;
+	left:30px;
+	top:520px;
+	z-index:5;
+
+}
+
+#btn6_img {
+	position:absolute;
+	left:30px;
+	top:610px;
+	z-index:6;
+
+}
+
+#btn7_img {
+	position:absolute;
+	left:520px;
+	top:160px;
+	z-index:7;
+
+}
+
+#btn8_img {
+	position:absolute;
+	left:520px;
+	top	:250px;
+	z-index:8;
+
+}
+
+#btn9_img {
+	position:absolute;
+	left:520px;
+	top	:340px;
+	z-index:9;
+
+}
+
+#btn10_img {
+	position:absolute;
+	left:520px;
+	top	:430px;
+	z-index:10;
+
+}
+
+#btn11_img {
+	position:absolute;
+	left:520px;
+	top	:520px;
+	z-index:11;
+
+}
+
+#btn12_img {
+	position:absolute;
+	left:520px;
+	top	:610px;
+	z-index:12;
+
+}
+
+
+/*各ボタンテキスト*/
+#btn1_text {
+	position:absolute;
+	left:30px;
+	top:160px;
+	z-index:29;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn2_text {
+	position:absolute;
+	left:30px;
+	top:250px;
+	z-index:30;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn3_text {
+	position:absolute;
+	left:30px;
+	top:340px;
+	z-index:31;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn4_text {
+	position:absolute;
+	left:30px;
+	top:430px;
+	z-index:32;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn5_text {
+	position:absolute;
+	left:30px;
+	top:520px;
+	z-index:33;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn6_text {
+	position:absolute;
+	left:30px;
+	top:610px;
+	z-index:34;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn7_text {
+	position:absolute;
+	left:520px;
+	top:160px;
+	z-index:35;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn8_text {
+	position:absolute;
+	left:520px;
+	top	:250px;
+	z-index:36;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn9_text {
+	position:absolute;
+	left:520px;
+	top	:340px;
+	z-index:37;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn10_text {
+	position:absolute;
+	left:520px;
+	top	:430px;
+	z-index:38;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn11_text {
+	position:absolute;
+	left:520px;
+	top	:520px;
+	z-index:39;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+#btn12_text {
+	position:absolute;
+	left:520px;
+	top	:610px;
+	z-index:40;
+	width:480px;
+	height:81px;
+	text-align:center;
+	font-size:20px;
+	font-family:"ＭＳ Ｐゴシック";
+
+}
+
+/*各ボタンリンクレイヤー*/
+#btn1_link {
+	position:absolute;
+	left:30px;
+	top:160px;
+	z-index:42;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn2_link {
+	position:absolute;
+	left:30px;
+	top:250px;
+	z-index:43;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn3_link {
+	position:absolute;
+	left:30px;
+	top:340px;
+	z-index:44;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn4_link {
+	position:absolute;
+	left:30px;
+	top:430px;
+	z-index:45;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn5_link {
+	position:absolute;
+	left:30px;
+	top:520px;
+	z-index:46;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn6_link {
+	position:absolute;
+	left:30px;
+	top:610px;
+	z-index:47;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn7_link {
+	position:absolute;
+	left:520px;
+	top:160px;
+	z-index:48;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn8_link {
+	position:absolute;
+	left:520px;
+	top	:250px;
+	z-index:49;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn9_link {
+	position:absolute;
+	left:520px;
+	top	:340px;
+	z-index:50;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn10_link {
+	position:absolute;
+	left:520px;
+	top	:430px;
+	z-index:51;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn11_link {
+	position:absolute;
+	left:520px;
+	top	:520px;
+	z-index:52;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+#btn12_link {
+	position:absolute;
+	left:520px;
+	top	:610px;
+	z-index:53;
+	background-color:#FFFFFF;
+	filter:Alpha(opacity=0);
+
+}
+
+/*テキスト中央分け*/
+.text_center {
+  height:90px;
+  vertical-align: middle;
+  
+}

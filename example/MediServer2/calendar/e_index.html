@@ -1,0 +1,219 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta http-equiv="content-style-type" content="text/css" />
+	<meta http-equiv="content-script-type" content="text/javascript" />
+<title>カレンダー</title>
+  <style type="text/css">
+
+BODY { overflow: hidden; } 
+
+li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+ol, ul {
+	list-style:none;
+}
+
+*{
+	font-family: "HiraKakuPro-W3","ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", Osaka, sans-serif;
+}
+body {
+background-image: url("img/bg.png");
+background-repeat   : no-repeat;
+}
+.secondly{
+	margin: 40px 0;
+	height: 36px;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	vertical-align: middle;
+
+}
+.wrp{
+	font-size: 27px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1;
+	vertical-align: middle;
+
+}
+div.under{
+	position:absolute;
+	font-family: "ＭＳ Ｐゴシック";
+	font-size: 26px;
+	color:#702f2f;
+	top:709px;
+	left: 63px;
+	width: 1025px;
+}
+
+#title {
+	position:absolute;
+	left:11px;
+	top:9px;
+	width:1197px;
+	height:22px;
+	z-index:1;
+}
+#apDiv1 {
+	position:absolute;
+	left:10px;
+	top:31px;
+	width:1196px;
+	height:377px;
+	z-index:6;
+}
+a:link {/*未訪問のリンク*/
+    color:#0072ff;
+    font-style:normal;
+    text-decoration:none;
+}
+
+a:visited {/*訪問後のリンク*/
+    color:#0072ff;
+    text-decoration:none;
+}	
+	
+a:hover {/*マウスをのせたとき*/
+	color:#79AD1F;
+	font-style:normal;
+	text-decoration:none;
+}
+/*＝＝＝Calendar操作ボタン＝＝＝*/
+.nacal{
+	margin: 40px 0;
+}
+.nacal li{
+	float: left;
+}
+.nacal li a{
+	display: block;
+	overflow: hidden;
+	text-indent: -7777px;
+}
+.nacal .stcal{
+	padding-top: 0.5em;
+	width: 456px;
+	margin: 0 auto;
+}
+.nacal .stcal li{
+	width: 152px;
+	height: 73px;
+}
+.nacal .stcal li a{
+	height: 73px;
+	background-image: url(img/e_bn_calendar.png);
+	background-repeat: no-repeat;
+}
+.nacal .stcal .prv a{
+	background-position: 0 0;
+}
+.nacal .stcal .prv a:hover{
+	background-position: 0 -73px;
+}
+.nacal .stcal .today a{
+	background-position: -152px 0;
+}
+.nacal .stcal .today a:hover{
+	background-position: -152px -73px;
+}
+.nacal .stcal .next a{
+	background-position: -304px 0;
+}
+.nacal .stcal .next a:hover{
+	background-position: -304px -73px;
+}
+
+  <!--
+table.cal{
+  border: 4px solid #82504c;
+  border-collapse: collapse;
+  background-color: #fffcf4;
+  font-size: 14pt; 
+  color: #993333;
+}
+tr.caltr   { vertical-align:top; height:60px; }
+td.today   { border:2px solid #82504c; width:130px; background-color:#fcce00; }  /* 今日のセルオプション */
+td.holiday { border:2px solid #82504c; width:130px; background-color:#ffd4c6; }  /* 日曜・祝日のセルオプション */
+td.saturday{ border:2px solid #82504c; width:130px; 
+background-color:#D1F1FF; }  /* 土曜のセルオプション */
+td.saturday24{ border:2px solid #82504c; width:130px; background-image: url(img/sat.png); }  /* 第２・第４土曜のセルオプション */
+td.usualday{ border:2px solid #82504c; width:130px; }  
+            /* なんでもない日のセルオプション */
+td.sun{ border:2px solid #82504c; background-color:#ffaba0; color:#993333; }  /* １列目日曜のセルオプション */
+td.sat{ border:2px solid #82504c; background-color:#82d9ff; color:#993333; }; /* １列目土曜のセルオプション */
+td.mon{ border:2px solid #82504c; background-color:#f9d9c3; } 
+            /* １列目月曜～金曜のセルオプション */
+
+/* スケジュール用に独自クラスを定義してもよし */
+.birthday{ border:2px solid #487F00; width:130px; background-color:#ff6699; color:white; }
+.event{ border:2px solid #82504c; width:130px; background-color:#defc67; color:#3b9163; }
+
+.yasumi{ border:2px solid #82504c; width:130px; background-color:#e2d3ff; color:#6e61a3; }
+
+
+#apDiv2 {
+	position:absolute;
+	left:7px;
+	top:715px;
+	width:1170px;
+	height:32px;
+	z-index:1;
+}
+
+  -->
+  </style>
+<script type="text/javascript">
+  <!--
+/* user configration */
+MAXEVENT = 50;  //祝日＋予定最大数
+SHOWWEEK = 6;   //何週表示するか
+
+// weekTable = new Array("sun","mon","tue","wed","thu","fri","sat");  //1列目
+weekTable = new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");  //1列目
+
+  // -->
+  </script>
+  <script type="text/javascript" src="lcal_css.js"></script>
+  <script type="text/javascript" src="schedule.js"></script>
+</head>
+<body scroll="no">
+<!-- ここからカレンダー<div id="title" align="left">　　　<img src="img/title.png" alt="title" ></div></div>
+<div class="secondly"></div> -->
+
+
+<div class="wrp">
+	<!-- ここからカレンダー -->
+	  <center>
+				<br><div id="divSdlCal" name="divSdlCal"> </div>
+
+				<div class="nacal">
+					<ul class="stcal group">
+						<li class="prv"><a href="#" onclick="showCalendar(prevMonth(baseDate))">先月</a></li>
+						<li class="today"><a href="#" onclick = "showCalendar(today_cal());">今日</a></li>
+						<li class="next"><a href="#" onclick = "showCalendar(nextMonth(baseDate))">来月</a></li>
+					</ul>
+				</div>
+
+			  <script type="text/javascript"><!--
+					// showCalendar(dateクラス 引数の例)
+					//  今週から表示           new Date()
+					//  2004/1/24の週から表示  new Date(2004,0,24) 月は１引く事．
+					//  7日前の週から表示      moveDate(new Date(), -7)
+					//  今週が最後になる       moveDate(new Date(), -7*(SHOWWEEK-1))
+					//     showCalendar(dateクラス 引数の例)
+					showCalendar(today_cal()); //起動時にこれで表示
+				// --></script>
+	<!-- ここまでカレンダー -->
+  </center>
+</div>
+<div class="under"><a href="../e_index.htm">Top Page</a>&nbsp; &gt; &nbsp;Calendar</div>
+</body>
+</html>

@@ -1,0 +1,318 @@
+@charset 'utf-8'; 
+
+body {
+    background:url(../img/base.jpg);
+	background-repeat: no-repeat;
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+
+#body {
+	background-image:url(../guide/img/base.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body1-1 {
+	background-image:url(../guide/img/base1-1.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body1-1-2 {
+	background-image:url(../guide/img/base1-1-2.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body1-2 {
+	background-image:url(../guide/img/base1-2.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body1-3 {
+	background-image:url(../guide/img/base1-3.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body1-4 {
+	background-image:url(../guide/img/base1-4.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+
+#body1-5 {
+	background-image:url(../guide/img/base1-5.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+
+#body1-5-2 {
+	background-image:url(../guide/img/base1-5-2.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body2-1 {
+	background-image:url(../guide/img/base2-1.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body2-2 {
+	background-image:url(../guide/img/base2-2.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body2-4 {
+	background-image:url(../guide/img/base2-4.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+
+#body2-6 {
+	background-image:url(../guide/img/base2-6.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body2-7 {
+	background-image:url(../guide/img/base2-7.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}
+	
+#body2-8 {
+	background-image:url(../guide/img/base2-8.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}	
+	
+#body4-1 {
+	background-color: #e9f6fe;
+	background-repeat: no-repeat;
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+	font-color: #000000;}
+	
+#body4-4 {
+	background-image:url(../guide/img/base4-4.jpg);
+	background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+	font-color: #000000;}
+		
+#body4-6 {
+	background-image:url(../guide/img/base4-6.jpg);
+	background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+	font-color: #000000;}
+	
+#body5-3 {
+	background-image:url(../guide/img/base5-3.jpg);
+    background-repeat: no-repeat;	
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 25pt;
+    font-color: #000000;}	
+
+/* ----------------------------------------- */
+/*a {text-decoration: none;}*/
+a:link {color: navy;} 
+a:visited {color: navy;} 
+a:hover {color: #dc143c;} 
+a:active { color: #dc143c;}
+
+
+div.note { 
+	margin-top: 0em;
+	margin-left: 3.4em;
+	margin-bottom: 1.0em;
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 0.75em;}
+
+div.note-fm { 
+	margin-top: 0em;
+	margin-left: 3.4em;
+	margin-bottom: 0.75em;
+	font-family: "ＭＳ Ｐゴシック";
+	font-weight: normal;
+	font-size: 0.75em;}
+	
+div.note5 {
+	margin-top: 1.65em;
+	margin-left: 1.4em;
+	font-size:26px;}	
+
+div.note5a {
+	margin-top: 1.5em;
+	margin-left: 1.4em;
+	font-size:22.85px;}
+	
+
+/* ----------------------------------------- */
+span.attention {color: #ee2222;}
+	
+.rline {border-bottom:solid 3.8px #ee2222;} 
+	
+.bline {border-bottom:solid 3.8px #0000cd;} 
+
+.blk-chara {color:#000000;
+            font-size:28pt;
+		    font-weight:bold;}
+
+.blk-mb-chara {color:#000000;
+               font-size:25pt;}
+			   
+.rchara {color:#ff4040;}			   
+
+.lbchara {color:#1663c3;}	
+
+.b-sb-chara {color:#000066;
+               font-size:18pt;
+		       font-weight:bold;}
+			   
+.bchara {color:#000094;}
+
+.or-chara {color:#ff962a;}
+
+.gr-chara {color:#237875;}
+
+.nv-chara {color:#022871;
+              font-size:25pt;}
+			  
+.nv-mb-chara {color:#022871;
+              font-size:25pt;
+              font-weight:bold;}
+		   
+.pchara {color:#df3bad;}
+
+.s17 {font-size:17pt;}
+.s28 {font-size:28pt;
+      line-height:32pt;}
+/* ----------------------------------------- */
+div.samplea {
+	width: 940px;
+    height: 540px; 
+	color: black;
+	font-size:27px;	
+	border:0;
+    padding: 0em;
+ 	margin-left: 1.5em;
+	margin-top: 1.0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	line-height: 29px;}
+	
+div.samplea2 {
+	width: 920px;
+    height: 540px; 
+	color: black;
+	font-size:28px;	
+	border:0;
+    padding: 0em;
+ 	margin-left: 1.5em;
+	margin-top: 1.0em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	line-height: 30px;}
+	
+div.sampleb {
+	width: 920px;
+    height: 520px; 
+	color: black;
+	font-size:29px;	
+	border:0;
+    padding: 0em;
+ 	margin-left: 1.5em;
+	margin-top: 1.65em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	line-height: 32px;}
+	
+div.sampleb2 {
+	width: 920px;
+    height: 520px; 
+	color: black;
+	font-size:29px;	
+	border:0;
+    padding: 0em;
+ 	margin-left: 1.5em;
+	margin-top: 0.5em;
+	margin-right: 0em;
+	margin-bottom: 0em;
+	line-height: 32px;}
+
+div.sampleb3 {
+	width: 940px;
+    height: 520px; 
+	color: black;
+	font-size:29px;	
+	border:0;
+    padding: 0em;
+ 	margin-left: 1.5em;
+	margin-top: 1.75em;
+	margin-right: 0em;
+	margin-bottom: 1.53em;
+	line-height: 32px;}
+
+/* ----------------------------------------- */
+td.sample {border: solid 2px #ca156d;}
+
+table.sample td {
+  	padding: 0.3em;}
+
+table.sample thead td {
+	color: white;
+	background-color: #ffa500;}
+	
+table.sample tbody td {
+	color: black;
+	background-color: #FFEFD5;}
+	
+table.sample tfoot td {
+	color: white;
+	background-color: #ffa500;
+	font-size: x-small;}
+
+
+/* ------------------- */
+div.clear-both {
+	clear: both;}

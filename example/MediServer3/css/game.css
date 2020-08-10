@@ -1,0 +1,104 @@
+@charset 'utf-8'; 
+
+body {
+	overflow:hidden;
+	background-image:url(../img/base_sub.png);
+  	background-repeat:no-repeat;
+	color: #3f211a;
+	font-family: "ＭＳ Ｐゴシック";
+	margin-top: 0em;
+	margin-left: 0em;
+	font-size: 29px;
+}
+
+img  {
+  border-style:none;
+}
+
+
+.announce {
+	color:#033;
+}
+
+a:link {/*未訪問のリンク*/
+    color:#033;
+    text-decoration:none;
+}
+
+	
+a:hover {/*マウスをのせたとき*/
+	color:#003;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#maintable {
+	position:absolute;
+	left:143px;
+	top:264px;
+	width:825px;
+	height:388px;
+	z-index:4;
+	font-size: 22px;
+	font-family: "メイリオ";
+	
+	
+}
+
+#link {
+	position:absolute;
+	left:95px;
+	top:686px;
+	width:820px;
+	height:72px;
+	z-index:7;
+	color:#033;
+}
+
+
+
+div.modoru {
+	position:absolute;
+	left:998px;
+	top:593px;
+	width:135px;
+	height:110px;
+	z-index:4;
+	
+}
+div.under{
+	position:absolute;
+	font-family: "メイリオ";
+	font-size: 26px;
+	color:#033;
+	top:717px;
+	left: 15px;
+	width: 1100px;
+}
+
+
+div.modoru {
+	position:absolute;
+	left:998px;
+	top:593px;
+	width:135px;
+	height:110px;
+	z-index:4;
+	
+}
+
+
+.table3{
+	position:absolute;
+	z-index:2;
+	left: 35px;
+	top: 10px;
+	color:#682F2F;
+	background-color:#F7F2EA;
+	font-family: "メイリオ";
+	font-size:18px;
+	border:3px dotted white;
+	opacity:0.8;
+
+}
+

@@ -1,0 +1,35 @@
+.block01{
+  background-color:#89fdce;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  margin: 10px;
+  color:#ffffff;
+  font-size: 36px;
+
+  */ブロック要素だよ上から下へと並ぶよ。
+  ◎高さや幅も決められるよ。
+  ✖text-alignやvertical-alignの指定はできない*/
+}
+
+.block02{
+  background-color:#009688;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  margin: 10px;
+  color:#ffffff;
+  font-size: 36px;
+  //ブロック要素だよ
+}
+
+.block03{
+  background-color:#04564f;
+  width: 200px;
+  height:100px;
+  padding: 10px;
+  margin: 10px;
+  color:#ffffff;
+  font-size: 36px;
+  //ブロック要素だよ
+}

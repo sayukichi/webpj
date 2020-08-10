@@ -1,0 +1,266 @@
+====================
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+====================
+
+
+/* HTML5 display-role reset for older browsers
+*/
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+
+
+
+
+body{
+  line-height: 1;
+  overflow: hidden;
+  margin:0;padding:0;
+  font-family:"ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro",sans-serif;
+  width: 960px;
+  height: 540px;
+  margin: 0 auto;
+  padding:0;
+background: #ffffff;
+	}
+
+img{
+	margin: 0;
+	padding:0;
+  border-style:none;
+
+}
+
+a:link {/*未訪問のリンク*/
+    text-decoration:none;
+	 transition: all ease 0.2s;
+}
+
+
+a:hover {/*マウスをのせたとき*/
+  text-decoration:none;
+}
+
+a:visited {/*訪問済み*/
+  text-decoration:none;
+}
+
+a:active {
+  text-decoration:none;
+}
+
+
+
+
+.wrapper2 {
+width: 960px;
+height: 540px;
+margin: 0 auto;
+padding:0;
+background: #fffcfc; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #fffcfc 1%, #e6f8fd 49%, #b1d8f5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #fffcfc 1%,#e6f8fd 49%,#b1d8f5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #fffcfc 1%,#e6f8fd 49%,#b1d8f5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffcfc', endColorstr='#b1d8f5',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+copy
+Color format:     Comments
+}
+
+#header{
+  width: 960px;
+  height: 15%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+
+#header-bar{
+background: #191970;
+
+}
+
+
+#left{
+  width: 47%;
+  height: 75%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+  background:#ffffe6;
+}
+
+#right{
+  width: 53%;
+  height: 75%;
+  margin: 0 ;
+  padding:0;
+  float: left;
+  background:#ffffe6;
+}
+
+#footer{
+  width: 960px;
+  height: 10%;
+  font-size:20px;
+  color: #ffffd1;
+  font-weight:bold;
+  float: left;
+  background:#191970;
+
+
+}
+
+#footer a:link {/*未訪問のリンク*/
+  color:#ffffd1;
+  font-style:normal;
+  text-decoration:none;
+	font-size:20px;
+	transition: all ease 0.2s;
+}
+#footer a:visited {
+  color:#ffffff;
+  font-style:normal;
+  text-decoration:none;
+	font-size:20px;
+	transition: all ease 0.2s;
+}
+
+
+#footer a:hover {/*マウスをのせたとき*/
+  color:#ffffff;
+  font-style:normal;
+  text-decoration:none;
+  font-size:20px;
+}
+
+.signbord{
+  position: fixed;
+  right: 10px;
+  bottom: 0;
+  width: 280px;
+  height: 120px;
+
+
+}
+
+
+  h1{
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color:#3d3d3d;
+    line-height: 40px;
+    padding: 0;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+  }
+
+
+.pop_btn > li {
+  /*display: inline-block;*/
+  height: 70px;
+  margin: 0;
+  position: relative;
+  width: 400px;
+  list-style-type: none;
+  padding: 0 15px 10px 5px ;
+}
+
+.pop_btn > li a {
+  background-color: #ffffff;
+  border-top: 1px solid #191970;
+  border-right: 1px solid #191970;
+  border-bottom: 1px solid #191970;
+  border-left: 30px solid #191970;
+
+  color: #3d3d3d;
+  display: block;
+  font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro",sans-serif;
+  height: 70px;
+  width: 400px;
+  line-height: 70px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: all ease 0.4s;
+
+}
+
+
+.pop_btn > li a:hover {
+  border-top: 1px solid #ff0000;
+  border-right: 1px solid #ff0000;
+  border-bottom: 1px solid #ff0000;
+  border-left: 30px solid #ff0000;
+  height: 70px;
+  line-height: 70px;
+  width: 400px;
+}
+
+
+ /*個別*/
+
+ #bluetex{
+  color: #004ea2;
+
+ }
+
+
+

@@ -1,0 +1,724 @@
+@charset 'utf-8'; 
+/*＝＝＝主页と第二階層共通設定＝＝＝*/
+.top,
+.secondly{
+width: 960px;
+margin: 16px auto;
+}
+
+
+
+/*＝＝＝主页の見出し設定＝＝＝*/
+.top h1{
+margin-top: 1em;
+}
+.top h2,
+.top h1{
+margin-bottom: .5em;
+}
+.top .wrp{
+padding: 8px 16px;
+height: 168px;
+overflow: auto;
+}
+
+
+
+/*＝＝＝主页の「病院からのお知らせ」部分設定＝＝＝*/
+iframe{
+display: block;
+width: 920px;
+margin: 0 auto;
+border-color: rgb(200,200,200);
+border-style: solid;
+border-width: 1px;
+}
+.news{
+padding: 6px 12px;
+}
+.news dl{
+margin-bottom: 1.5em;
+}
+
+.news dt{
+float: left;
+width: 180px;
+color: rgb(255,0,60);
+}
+
+.news dd{
+float: left;
+width: 650px;
+}
+
+
+
+/*＝＝＝主页のメインコンテンツのボタン＝＝＝*/
+.top .nav{
+margin: 16px 0;
+}
+.top .nav li{
+float: left;
+}
+.top .nav li a{
+display: block;
+overflow: hidden;
+text-indent: -7777px;
+}
+.top .nav .main{
+padding-top: 1.5em;
+width: 912px;
+margin: 0 auto;
+}
+.top .nav .main li{
+width: 152px;
+height: 72px;
+}
+.main li a{
+height: 72px;
+background-image: url(../images/main-menu.png);
+background-repeat: no-repeat;
+}
+.main .hospitalized a{
+background-position: 0 0;
+}
+.main .hospitalized a:hover{
+background-position: 0 -73px;
+}
+.main .procedure a{
+background-position: -152px 0;
+}
+.main .procedure a:hover{
+background-position: -152px -73px;
+}
+.main .equipment a{
+background-position: -304px 0;
+}
+.main .equipment a:hover{
+background-position: -304px -73px;
+}
+.main .video a{
+background-position: -456px 0;
+}
+.main .video a:hover{
+background-position: -456px -73px;
+}
+.main .information a{
+background-position: -608px 0;
+}
+.main .information a:hover{
+background-position: -608px -73px;
+}
+.main .staff a{
+background-position: -760px 0;
+}
+.main .staff a:hover{
+background-position: -760px -73px;
+}
+
+
+
+/*＝＝＝主页のサブコンテンツのボタン＝＝＝*/
+.nav .sub li{
+width: 304px;
+height: 91px;
+}
+.top .nav .sub{
+padding-top: 1.5em;
+width: 912px;
+margin: 0 auto;
+}
+.nav .sub a{
+height: 91px;
+background-image: url(../images/sub-menu.png);
+background-repeat: no-repeat;
+}
+.nav .sub .detail a{
+background-position: 0 0;
+}
+.nav .sub .detail a:hover{
+background-position: 0 -91px;
+}
+.nav .sub .amenity a{
+background-position: -304px 0;
+}
+.nav .sub .amenity a:hover{
+background-position: -304px -91px;
+}
+.nav .sub .diagnostic a{
+background-position: -608px 0;
+}
+.nav .sub .diagnostic a:hover{
+background-position: -608px -91px;
+}
+
+
+
+/*＝＝＝第二階層のデフォルト設定＝＝＝*/
+.secondly h1{
+padding: 27px 29px;
+height: 28px;
+background-image: url(../images/document-title-backgrund.png);
+background-position: center center;
+background-repeat: no-repeat;
+font-size: 28px;
+font-weight: bold;
+text-align: center;
+line-height: 1;
+vertical-align: middle;
+color: rgb(255,255,255);
+}
+.secondly .wrp{
+padding: 0 39px;
+}
+
+/*画像の回り込み設定*/
+.secondly .img_l{
+margin: 12px 16px;
+float: left;
+}
+.secondly .img_r{
+margin: 12px 16px;
+float: right;
+}
+/*第二階層の見出し設定*/
+.secondly .heading{
+margin-top: 2em;
+padding-left: 1.5em;
+border-bottom-color: rgb(56, 102, 0);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+background-image: url(../images/ico_headline.png);
+background-position: 0.2em 0.5em;
+background-repeat: no-repeat;
+font-weight: bold;
+}
+.secondly ol li{
+margin-left: 1.5em;
+list-style: decimal;
+}
+.secondly ul li{
+margin-left: 1.5em;
+list-style: disc;
+}
+.secondly li{
+padding-bottom: .8em;
+}
+.secondly dl,
+.secondly ul,
+.secondly  ol,
+.secondly p{
+margin-bottom: 1em;
+}
+.secondly p{
+text-indent: 1em;
+}
+.secondly dl dt{
+font-weight: bold;
+color: rgb(56, 102, 0);
+}
+.secondly dl dd{
+margin-left: 1.5em;
+}
+.secondly table,
+.secondly table tr,
+.secondly table th,
+.secondly table td{
+padding: .3em .6em;
+border-color: rgb(200,200,200);
+border-style: solid;
+border-width: 1px;
+font-size: 24px;
+white-space: nowrap;
+}
+.secondly table th{
+background-color: rgb(240,240,240);
+vertical-align: middle;
+}
+.secondly table td{
+text-align: right;
+}
+.secondly .map{
+margin: 0 auto;
+}
+
+/*＝＝＝院内生活＝＝＝*/
+.navHospitalized{
+width: 608px;
+margin: 0 auto;
+padding: 0;
+}
+.secondly .navHospitalized li{
+width: 304px;
+height: 70px;
+float: left;
+list-style: none;
+margin: 0;
+}
+.navHospitalized li a{
+height: 70px;
+display: block;
+background-image: url(../images/bn_nyuinseikatsu.png);
+background-repeat: no-repeat;
+text-indent: -7777px;
+}
+.navHospitalized .attention a{
+background-position: 0 0;
+}
+.navHospitalized .attention a:hover{
+background-position: -304px 0;
+}
+.navHospitalized .forpatient a{
+background-position: 0 -70px;
+}
+.navHospitalized .forpatient a:hover{
+background-position: -304px -70px;
+}
+.navHospitalized .readyoneself a{
+background-position: 0 -140px;
+}
+.navHospitalized .readyoneself a:hover{
+background-position: -304px -140px;
+}
+.navHospitalized .stay a{
+background-position: 0 -210px;
+}
+.navHospitalized .stay a:hover{
+background-position: -304px -210px;
+}
+.navHospitalized .escape a{
+background-position: 0 -280px;
+}
+.navHospitalized .escape a:hover{
+background-position: -304px -280px;
+}
+.navHospitalized .visitation a{
+background-position: 0 -350px;
+}
+.navHospitalized .visitation a:hover{
+background-position: -304px -350px;
+}
+.navHospitalized .outgo a{
+background-position: 0 -420px;
+}
+.navHospitalized .outgo a:hover{
+background-position: -304px -420px;
+}
+.navHospitalized .floorgide a{
+background-position: 0 -490px;
+}
+.navHospitalized .floorgide a:hover{
+background-position: -304px -490px;
+}
+
+/*＝＝＝フロア案内＝＝＝*/
+.secondly .floor{
+margin: 0 auto;
+}
+.secondly .floor ,
+.secondly .floor tr,
+.secondly .floor th,
+.secondly .floor td{
+border: none;
+background: none;
+padding: 0;
+}
+.secondly .floor .no1,
+.secondly .floor .no2,
+.secondly .floor .no3,
+.secondly .floor .no4,
+.secondly .floor .no5,
+.secondly .floor .west,
+.secondly .floor .east,
+.secondly .floor .new,
+.secondly .floor a{
+height: 82px;
+background-image: url(../images/floorInformation.png);
+background-repeat: no-repeat;
+text-align: left;
+text-indent: -7777px;
+}
+.floor .no1,
+.floor .no2,
+.floor .no3,
+.floor .no4,
+.floor .no5{
+width: 102px;
+}
+.secondly .floor .new{
+width: 186px;
+background-position: -758px 0;
+}
+.secondly .floor .west{
+width: 328px;
+background-position: -102px 0;
+}
+.secondly .floor .east{
+width: 328px;
+background-position: -430px 0;
+}
+.secondly .floor .no1{
+background-position: 0 -738px;
+}
+.secondly .floor .no2{
+background-position: 0 -574px;
+}
+.secondly .floor .no3{
+background-position: 0 -492px;
+}
+.secondly .floor .no4{
+background-position: 0 -328px;
+}
+.secondly .floor .no5{
+background-position: 0 -164px;
+}
+.secondly .floor a{
+display: block;
+height: 82px;
+background-image: url(../images/floorInformation.png);
+background-repeat: no-repeat;
+}
+.secondly .floor .map01 a{
+background-position: -102px -738px;
+}
+.secondly .floor .map01 a:hover{
+background-position: -102px -820px;
+}
+.floor .map02 a{
+background-position: -102px -574px;
+}
+.floor .map02 a:hover{
+background-position: -102px -656px;
+}
+.floor .map03 a{
+background-position: -102px -410px;
+}
+.floor .map03 a:hover{
+background-position: -430px -410px;
+}
+.floor .map04 a{
+background-position: -102px -492px;
+}
+.floor .map04 a:hover{
+background-position: -430px -492px;
+}
+.floor .map05 a{
+background-position: -102px -246px;
+}
+.floor .map05 a:hover{
+background-position: -430px -246px;
+}
+.floor .map06 a{
+background-position: -102px -328px;
+}
+.floor .map06 a:hover{
+background-position: -430px -328px;
+}
+.floor .map07 a{
+background-position: -102px -82px;
+}
+.floor .map07 a:hover{
+background-position: -430px -82px;
+}
+.floor .map08 a{
+background-position: -102px -164px;
+}
+.floor .map08 a:hover{
+background-position: -430px -164px;
+}
+.floor .new03 a{
+background-position: -758px -492px;
+}
+.floor .new03 a:hover{
+background-position: -758px -410px;
+}
+.floor .new04 a{
+background-position: -758px -328px;
+}
+.floor .new04 a:hover{
+background-position: -758px -246px;
+}
+/*＝＝＝手続関係＝＝＝*/
+.procedure {
+width: 608px;
+margin: 0 auto;
+padding: 0;
+}
+.secondly .procedure li{
+margin: 0;
+list-style: none;
+}
+.procedure li{
+width: 304px;
+height: 70px;
+float: left;
+list-style: none;
+margin: 0;
+}
+.procedure li a{
+height: 70px;
+display: block;
+background-image: url(../images/bn_procedure.png);
+background-repeat: no-repeat;
+text-indent: -7777px;
+}
+.procedure .payment a{
+background-position: 0 0;
+}
+.procedure .payment a:hover{
+background-position: -304px 0;
+}
+.procedure .discharge a{
+background-position: 0 -70px;
+}
+.procedure .discharge a:hover{
+background-position: -304px -70px;
+}
+.procedure .medicalCertificate a{
+background-position: 0 -140px;
+}
+.procedure .medicalCertificate a:hover{
+background-position: -304px -140px;
+}
+.procedure .counceling a{
+background-position: 0 -210px;
+}
+.procedure .counceling a:hover{
+background-position: -304px -210px;
+}
+
+/*＝＝＝院内情報＝＝＝*/
+.equipment {
+width: 608px;
+margin: 0 auto;
+padding: 0;
+}
+.secondly .equipment li{
+margin: 0;
+list-style: none;
+}
+.equipment li{
+width: 304px;
+height: 70px;
+float: left;
+list-style: none;
+margin: 0;
+}
+.equipment li a{
+height: 70px;
+display: block;
+background-image: url(../images/bn_equipment.png);
+background-repeat: no-repeat;
+text-indent: -7777px;
+}
+.equipment .service a{
+background-position: 0 0;
+}
+.equipment .service a:hover{
+background-position: -304px 0;
+}
+.equipment .informationPlaza a{
+background-position: 0 -70px;
+}
+.equipment .informationPlaza a:hover{
+background-position: -304px -70px;
+}
+
+/*＝＝＝説明ビデオ＝＝＝*/
+.video {
+width: 608px;
+margin: 0 auto;
+padding: 0;
+}
+.secondly .video li{
+margin: 0;
+list-style: none;
+}
+.video li{
+width: 304px;
+height: 70px;
+float: left;
+list-style: none;
+margin: 0;
+}
+.video li a{
+height: 70px;
+display: block;
+background-image: url(../images/bn_video.png);
+background-repeat: no-repeat;
+text-indent: -7777px;
+}
+.video .video01 a{
+background-position: 0 0;
+}
+.video .video01 a:hover{
+background-position: -304px 0;
+}
+.video .video02 a{
+background-position: 0 -70px;
+}
+.video .video02 a:hover{
+background-position: -304px -70px;
+}
+.video .video03 a{
+background-position: 0 -140px;
+}
+.video .video03 a:hover{
+background-position: -304px -140px;
+}
+.video .video04 a{
+background-position: 0 -210px;
+}
+.video .video04 a:hover{
+background-position: -304px -210px;
+}
+.video .video05 a{
+background-position: 0 -280px;
+}
+.video .video05 a:hover{
+background-position: -304px -280px;
+}
+.video .video06 a{
+background-position: 0 -350px;
+}
+.video .video06 a:hover{
+background-position: -304px -350px;
+}
+.video .video07 a{
+background-position: 0 -420px;
+}
+.video .video07 a:hover{
+background-position: -304px -420px;
+}
+
+/*＝＝＝情報コーナー＝＝＝*/
+.information {
+width: 608px;
+margin: 0 auto;
+padding: 0;
+}
+.secondly .information li{
+margin: 0;
+list-style: none;
+}
+.information li{
+width: 304px;
+height: 70px;
+float: left;
+list-style: none;
+margin: 0;
+}
+.information li a{
+height: 70px;
+display: block;
+background-image: url(../images/bn_information.png);
+background-repeat: no-repeat;
+text-indent: -7777px;
+}
+.information .info01 a{
+background-position: 0 0;
+}
+.information .info01 a:hover{
+background-position: -304px 0;
+}
+.information .info02 a{
+background-position: 0 -70px;
+}
+.information .info02 a:hover{
+background-position: -304px -70px;
+}
+.information .info03 a{
+background-position: 0 -140px;
+}
+.information .info03 a:hover{
+background-position: -304px -140px;
+}
+.information .info04 a{
+background-position: 0 -210px;
+}
+.information .info04 a:hover{
+background-position: -304px -210px;
+}
+.information .info05 a{
+background-position: 0 -280px;
+}
+.information .info05 a:hover{
+background-position: -304px -280px;
+}
+
+
+
+/*＝＝＝情報コーナー＝＝＝*/
+.hospitalInfo {
+width: 608px;
+margin: 0 auto;
+padding: 0;
+}
+.secondly .hospitalInfo li{
+margin: 0;
+list-style: none;
+}
+.hospitalInfo li{
+width: 304px;
+height: 70px;
+float: left;
+list-style: none;
+margin: 0;
+}
+.hospitalInfo li a{
+height: 70px;
+display: block;
+background-image: url(../images/bn_hospitalInfo.png);
+background-repeat: no-repeat;
+text-indent: -7777px;
+}
+.hospitalInfo .hosinfo01 a{
+background-position: 0 0;
+}
+.hospitalInfo .hosinfo01 a:hover{
+background-position: -304px 0;
+}
+.hospitalInfo .hosinfo02 a{
+background-position: 0 -70px;
+}
+.hospitalInfo .hosinfo02 a:hover{
+background-position: -304px -70px;
+}
+.hospitalInfo .hosinfo03 a{
+background-position: 0 -140px;
+}
+.hospitalInfo .hosinfo03 a:hover{
+background-position: -304px -140px;
+}
+.hospitalInfo .hosinfo04 a{
+background-position: 0 -210px;
+}
+.hospitalInfo .hosinfo04 a:hover{
+background-position: -304px -210px;
+}
+.hospitalInfo .hosinfo05 a{
+background-position: 0 -280px;
+}
+.hospitalInfo .hosinfo05 a:hover{
+background-position: -304px -280px;
+}
+.hospitalInfo .hosinfo06 a{
+background-position: 0 -350px;
+}
+.hospitalInfo .hosinfo06 a:hover{
+background-position: -304px -350px;
+}
+.hospitalInfo .hosinfo07 a{
+background-position: 0 -420px;
+}
+.hospitalInfo .hosinfo07 a:hover{
+background-position: -304px -420px;
+}
+
+
+/*＝＝＝現在製作中です＝＝＝*/
+.tobeprepared p{
+font-size: 150%;
+padding-top: 5em;
+padding-left: 400px;
+}

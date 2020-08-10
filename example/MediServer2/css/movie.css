@@ -1,0 +1,278 @@
+====================
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+====================
+
+
+/* HTML5 display-role reset for older browsers 
+*/
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+ol, ul {
+list-style: none;
+}
+blockquote, q {
+quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+
+
+
+
+
+body{
+  line-height: 1;
+  overflow: hidden;
+  margin:0;padding:0; 
+  font-family: "ＭＳ ゴシック",sans-serif;  
+  }
+  
+  
+img{
+  margin: 0;
+  padding:0;
+  border-style:none;
+
+}
+
+a:link {/*未訪問のリンク*/
+    text-decoration:none;
+   transition: all ease 0.2s;
+}
+
+
+  
+a:hover {/*マウスをのせたとき*/
+  text-decoration:none;
+}
+
+a:visited {/*訪問済み*/
+  text-decoration:none;
+}
+
+a:active {
+  text-decoration:none;
+}
+
+
+
+.wrapper {
+  width: 1196px;
+  height: 768px;
+  margin: 0 auto;
+  padding:0;
+background: url(../img/base_mv.png);
+}
+#header{
+  width: 1196px;
+  height: 10%;
+  float: left;
+  margin: 0 ;
+  padding:0;
+
+}
+
+#main{
+  width: 100%;
+  height: 80%;
+  padding:0;
+ margin: 0 auto;
+
+}
+
+
+
+#footer{
+  width: 1196px;
+  height: 10%;
+  font-size:22px;
+  color: #fff;
+  font-weight:bold;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+#footer a:link {/*未訪問のリンク*/
+  color:#3d3d3d;
+  font-style:normal;
+  text-decoration:none;
+  font-size:24px;
+
+  transition: all ease 0.3s;
+}
+#footer a:visited {
+  color:#3d3d3d;
+  font-style:normal;
+  text-decoration:none;
+  font-size:24px;
+ 
+  transition: all ease 0.3s;
+}
+
+  
+#footer a:hover {/*マウスをのせたとき*/
+  color:#ffffff;
+  font-style:normal;
+  text-decoration:none;
+  font-size:24px;
+  background-color: rgba(95,119,222,0.6);
+
+
+}
+
+#footer .home{
+  background: url("../img/home.png"), no-repeat;
+
+}
+
+#footer .home a {
+  
+  width: 67px;
+  height: 60px;
+  display: block;
+
+}
+
+#footer .home a:hover {
+
+    background: url("../img/home_m.png")no-repeat;
+    transition: background ease 0.3s;
+
+}
+
+
+  h1{
+    font-size: 56px;
+    color:#512f0d;
+    line-height: 56px;
+    padding: 0;
+    margin: 0;
+    opacity: 0.9;
+  }
+
+  h2{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 0px;
+    padding-top:10px;
+    margin: 0;
+  }
+
+  h3{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+
+  }
+
+
+
+
+
+  
+ /*　　個別　　*/
+
+ #glaytex{
+  color: #b0c4de;                          
+
+ }
+ #redtex{
+	 color:#F33;
+ }
+
+  #bluetex{
+  color: #4169e1;
+ }
+
+
+#ex{
+	background:#FFF;
+	font-weight:bold;
+	
+}
+
+
+
+
+
+/*動画*/
+
+  #ctrbtn{
+    font-weight: bold;
+    transition: all ease 0.4s;
+    font-size: 30px;
+    line-height: 30px;
+    padding-top:5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    color:#3d3d3d;
+    background: #ffffff;
+    border:2px solid #4169e1 ;
+
+
+
+  }
+
+    #ctrbtn:hover{
+    
+    color: #adff2f;
+    background: #4169e1; 
+    border:2px solid #4169e1 ;
+
+
+
+  }
+
+.waku{
+   background: #258dc8; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #258dc8 0%, #258dc8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #258dc8 0%,#258dc8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #258dc8 0%,#258dc8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    padding: 10px;
+
+  }
+
+
+  
+
+
+
